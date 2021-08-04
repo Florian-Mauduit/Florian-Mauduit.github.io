@@ -33,18 +33,22 @@
 
 .name {
 	margin-left: 200px;
+	font-family: Bangers;
 }
 
 .username {
 	margin-left: 200px;
+	font-family: Bangers;
 }
 
 .email {
 	margin-left: 200px;
+	font-family: Bangers;
 }
 
 .message {
 	margin-left: 100px;
+	font-family: Bangers;
 }
 
 .input {
@@ -56,7 +60,6 @@
 	height: 27px;
 	width: 300px;
 	font-size: 15px;
-	font-family: bold;
 }
 
 .textarea {
@@ -69,11 +72,13 @@
 }
 
 .checkbox {
+	font-family: Bangers;
 	margin-left: 210px;
 	font-size: 17px;
 }
 
 .submit {
+	font-family: Bangers;
 	position: absolute;
 	margin-left: 200px;
 	margin-top: 10px;
@@ -86,6 +91,7 @@
 }
 
 .cancel {
+	font-family: Bangers;
 	margin-left: 360px;
 	margin-top: 10px;
 	width: 150px;
