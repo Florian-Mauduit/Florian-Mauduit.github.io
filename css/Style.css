@@ -135,10 +135,17 @@ h1 {
 }
 
 #intro {
+	font-family: Bangers;
 	text-align: center;
 	margin: 5px;
 	font-size: 20px;
 } 
+
+.intro-paragraphes {
+	font-family: Bangers;
+	text-align: center;
+	font-size: 18px;
+}
 
 li {
 	list-style: none;
