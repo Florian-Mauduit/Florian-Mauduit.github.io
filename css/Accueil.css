@@ -1,4 +1,4 @@
-/* Partie navigation img */
+ Partie navigation img */
 
 .img_AN {
 	margin-left: 1%;
@@ -124,12 +124,46 @@ button {
 	display: flex;
 	justify-content: flex-end;
 	margin-bottom: 10%;
-	margin-top: -15%;
+	margin-top: -13%;
 	margin-right: 10%;
 	margin-left: 85%;
 	background-color: black;
 	width: 150px;
 	border-radius: 95% 5% 93% 7% / 90% 9% 91% 10%;
+}
+
+/* Bouton Start & Select */
+
+.btn-start-select {
+	display: flex;
+	margin-left: 47%;
+	margin-top: -100px;
+}
+
+.btn-start {
+	width: 50px;
+	height: 10px;
+	margin-bottom: 10px;
+}
+
+.start {
+	margin-right: 20px;
+}
+
+.start-police {
+	font-family: Permanent Marker;
+	font-size: 19px;
+}
+
+.btn-select {
+	width: 50px;
+	height: 10px;
+	margin-bottom: 10px;
+}
+
+.select-police {
+	font-family: Permanent Marker;
+	font-size: 19px;
 }
 
 .jaune {
@@ -225,4 +259,4 @@ button {
 	height: 70px;
 	width: 84px;
 	color: #F9ED32;
-}*/
+}
