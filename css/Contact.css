@@ -1,0 +1,98 @@
+/* Retour en haut */
+.Up {
+	margin-left: 90%;
+	margin-top: -150px;
+	margin-bottom: 135px;
+	height: 70px;
+	width: 84px;
+	color: #F9ED32;
+	
+}
+
+/* Retour Accueil */
+.retour {
+	padding: 10px;
+	background-color: #B0BAC3;
+	border-radius: 15px;
+	color: #F9ED32;
+	margin-left: 100px;
+}
+
+
+/*Partie Formulaire*/
+
+.form {
+	position: absolute;
+	margin-left: 25%;
+	margin-top: 2%;
+	background-color: #C3B2AF;
+	border-radius: 16% 84% 57% 43% / 38% 46% 54% 62% ;
+	padding: 2%;
+	width: 50%;
+}
+
+.name {
+	margin-left: 200px;
+}
+
+.username {
+	margin-left: 200px;
+}
+
+.email {
+	margin-left: 200px;
+}
+
+.message {
+	margin-left: 100px;
+}
+
+.input {
+	margin: 10px;
+    margin-left: 200px;
+	color: #FFF;
+	background-color: #7C838A;
+	border-radius: 10px;
+	height: 27px;
+	width: 300px;
+	font-size: 15px;
+	font-family: bold;
+}
+
+.textarea {
+	width: 300px;
+	height: 200px;
+	margin-left: 100px;
+	margin-top: 2%;
+	background-color: #7C838A;
+	color: white;
+}
+
+.checkbox {
+	margin-left: 210px;
+	font-size: 17px;
+}
+
+.submit {
+	position: absolute;
+	margin-left: 200px;
+	margin-top: 10px;
+	width: 150px;
+	height: 30px;
+	color: #7C838A;
+	background-color: #F9ED32;
+	border-radius: 24% 77% 69% 31% / 42% 54% 46% 58%;
+	box-shadow: 4px 10px 15px #7C838A;
+}
+
+.cancel {
+	margin-left: 360px;
+	margin-top: 10px;
+	width: 150px;
+	height: 30px;
+	color: #7C838A;
+	background-color: #F9ED32;
+	border-radius: 81% 19% 22% 78% / 50% 54% 46% 50%;
+	box-shadow: 4px 10px 15px #7C838A;
+	
+}

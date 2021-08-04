@@ -1,0 +1,168 @@
+/* Animations Fondu */
+
+.Oeuf-top {
+	width: 52%;
+	height: 100%;
+	margin-left: -3%;
+	margin-top: -1%;
+}
+
+.Oeuf-bas {
+	width: 46%;
+	height: 92%;
+}
+
+#cross-fading {
+  position:relative;
+  height:281px;
+  width:450px;
+  margin:0 auto;
+}
+
+#cross-fading img {
+  /*width: 200px;*/
+  position:absolute;
+  left: 26%;
+  -webkit-transition: opacity 0.5s ease-in-out;
+  -moz-transition: opacity 0.5s ease-in-out;
+  -o-transition: opacity 0.5s ease-in-out;
+  transition: opacity 0.5s ease-in-out;
+}
+
+#cross-fading img.Oeuf-top:hover {
+  opacity:0;
+}
+/* Partie menu */
+
+body {
+	background-color:  #7C838A;
+}
+
+ol {
+	text-align: center;
+	background-color: #7C838A;
+}
+
+li {
+	display: inline-block;
+	flex: 1;
+	cursor: pointer;
+}
+
+#realisation {
+	width: 150px;
+	color: #F9ED32;
+	border-radius: 15px;
+	margin: 10px;
+	padding: 20px;
+	font-size: 20px;
+	transition: all 0.5s ease-out;
+}
+
+
+ #competence {
+ 	width: 150px;
+ 	color: #F9ED32;
+ 	border-radius: 15px;
+ 	margin: 10px;
+ 	padding: 20px;
+ 	font-size: 20px;
+ 	transition: all 0.5s ease-out;
+ }
+
+ #contact {
+ 	width: 150px;
+ 	color: #F9ED32;
+ 	border-radius: 15px;
+ 	margin: 10px;
+ 	padding: 20px;
+ 	font-size: 20px;
+ 	font-weight: 15px;
+ 	transition: all 0.5s ease-out;
+ }
+
+ #CV {
+ 	width: 150px;
+ 	color: #F9ED32;
+ 	border-radius: 15px;
+ 	margin: 10px;
+ 	padding: 20px;
+ 	font-size: 20px;
+ 	transition: all 0.5s ease-out;
+ }
+
+ /* Animations CSS menu de navigation */
+
+#realisation:hover,
+#realisation:focus {
+	color: #F9ED32;
+	border: 1px solid;
+}
+
+#competence:hover,
+#competence:focus {
+	color: #F9ED32;
+	border: 1px solid;
+}
+
+#contact:hover,
+#contact:focus {
+	color: #F9ED32;
+	border: 1px solid;
+}
+
+#CV:hover,
+#CV:focus {
+	color: #F9ED32;
+	border: 1px solid;
+}
+ 
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: fantasy;
+}
+
+h1 {
+	text-align: center;
+	margin: 5px;
+}
+
+#intro {
+	text-align: center;
+	margin: 5px;
+	font-size: 20px;
+} 
+
+li {
+	list-style: none;
+	padding: 5px;  
+}
+
+header {
+	background-color: orange;
+}
+
+.credits {
+	padding: 15px;
+	background-color: #B0BAC3;
+	color: #F9ED32;
+	text-align: center;
+	font-size: 17px;
+	font-style: oblique;
+	font-weight: bold;
+	margin-top: 50%;
+	box-shadow: 5px 5px 5px #E6F3FF;
+}
+
+/* Retour en Haut */
+
+.Up {
+	margin-left: 90%;
+	margin-top: -150px;
+	margin-bottom: 135px;
+	height: 70px;
+	width: 84px;
+	color: #F9ED32;
+}

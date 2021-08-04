@@ -1,0 +1,221 @@
+
+
+/* Partie navigation img */
+
+.img_AN {
+	margin-left: 1%;
+}
+
+.img_CF {
+	margin-left: 25%;
+}
+
+.image_Chantal:hover,
+.image_Chantal:focus {
+	color: #F9ED32;
+	background-color: #C3B2AF;
+}
+
+.image_Florian:hover,
+.image_Florian:focus {
+	color: #F9ED32;
+	background-color: #C3B2AF;
+}
+
+.image_Noah:hover,
+.image_Noah:focus {
+	color: #F9ED32;
+	background-color: #C3B2AF;
+}
+
+.image_Adam:hover,
+.image_Adam:focus {
+	color: #F9ED32;
+	background-color: #C3B2AF;
+}
+
+.image_Chantal {
+	width: 200px;
+	height: 250px;
+	background-color: #B0BAC3;
+	border-radius: 50% 50% 49% 51% / 47% 48% 52% 53%;
+	margin-bottom: 40px;
+	transition: all 0.5s ease-out;
+}
+
+.image_Florian {
+	width: 200px;
+	height: 250px;
+	background-color: #B0BAC3;
+	border-radius: 50% 50% 49% 51% / 47% 48% 52% 53%;
+	transition: all 0.5s ease-out;
+}
+
+.image_Noah {
+	width: 200px;
+	height: 250px;
+	background-color: #B0BAC3;
+	border-radius: 50% 50% 49% 51% / 47% 48% 52% 53%;
+	transition: all 0.5s ease-out;
+}
+
+.image_Adam {
+	width: 200px;
+	height: 250px;
+	background-color: #B0BAC3;
+	border-radius: 50% 50% 49% 51% / 47% 48% 52% 53%;
+	margin-bottom: 40px;
+	transition: all 0.5s ease-out;
+}
+
+/*Partie écran de la borne arcade  */
+
+.ecran {
+	display: flex;
+	background-color: #000000;
+	color: white;
+	margin-top: 20px;
+	padding: 12px;
+}
+
+iframe {
+	width: 600px;
+	height: 600px;
+	margin-left: 30%;
+	margin-right: auto;
+}
+
+/* Bouton de déplacement */
+
+.deplacement {
+	position: relative;
+	width: 300px;
+	height: 300px;
+	margin: 0;
+}
+
+.barreH {
+	position: absolute;
+	border-radius: 12%;
+    margin-left: 60%;
+    width: 30px;
+    height: 200px;
+    background-color: black;
+}
+
+.barreL{
+    position: relative;
+    border-radius: 12%;
+    margin-top: 10%;
+    margin-left: 35%;
+    top: 80px;
+    right: 5px;
+    width: 200px;
+    height: 30px;
+    background-color: black;
+}
+
+/* Partie Buttons Play */
+
+button {
+	display: inline-block;
+	cursor: pointer;
+}
+
+.btn {
+	display: flex;
+	justify-content: flex-end;
+	margin-bottom: 10%;
+	margin-top: -15%;
+	margin-right: 10%;
+}
+
+.jaune {
+	border-radius: 50%;
+	margin: 10px;
+	padding: 10px;
+	margin: 10px;
+	padding: 10px;
+	width: 50px;
+	height: 50px;
+	background-color: #F9ED32;
+}
+
+.bleu {
+	border-radius: 50%;
+	margin-top: 10px;
+	padding: 10px;
+	margin: 10px;
+	padding: 10px;
+	width: 50px;
+	height: 50px;
+	background-color: #E6F3FF;
+}
+
+/*Partie jeu popup*/
+
+.overlay {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	background-color: rgba(0, 0, 0, 0.5);
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	display: none;
+}
+
+.popup {
+	margin: 2% auto;
+	width: 70%;
+	color: #fff;
+	background-color: #C3B2AF;
+	padding: 1em;
+	box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+	border-radius: 5px;
+}
+
+.btnClose {
+	float: right;
+	font-size: 30pt;
+	cursor: pointer;
+	color: #7C838A;
+}
+.popup-titre {
+	text-align: center;
+    margin-bottom: 20px;
+    font-family: Bangers;
+    font-size: 40px;
+}
+
+.popup-jeu {
+	margin-right: 30%;
+}
+
+/* Partie separation */
+
+.contactez-nous {
+	margin-left: 45%;
+	font-size: 24px;
+	color: #F9ED32;
+}
+
+.separer {
+	height: 3px;
+	color: #C3B2AF;
+	background-color: #C3B2AF;
+	width: 167px;
+	margin-left: 45%;
+	margin-top: 10px;
+}
+
+/* Retour en Haut 
+
+.Up {
+	margin-left: 90%;
+	margin-top: -150px;
+	margin-bottom: 135px;
+	height: 70px;
+	width: 84px;
+	color: #F9ED32;
+}*/

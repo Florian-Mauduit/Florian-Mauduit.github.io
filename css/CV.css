@@ -1,0 +1,106 @@
+/*Les liens pour les cv*/
+
+
+.cv {
+	display: flex;
+	margin: 10px;
+	margin-left: 1%;
+}
+
+.cv__Chantal {
+	margin: 10px;
+	padding: 10px;
+}
+.cv__Florian {
+	margin: 10px;
+	padding: 10px;
+}
+
+.cv__Noah {
+	margin: 10px;
+	padding: 10px;
+}
+
+.cv__Adam {
+	margin: 10px;
+	padding: 10px;
+}
+
+/*Img de chaque de CV*/
+
+.cv__Chantal-img {
+	margin: 10px;
+	padding: 10px;
+	width: 300px;
+	height: 350px;
+	/*border-radius: 50% 50% 49% 51% / 47% 48% 52% 53%;*/
+	background-color: #C3B2AF;
+	transition: all 0.5s ease-out;
+}
+
+.cv__Chantal-img:active,
+.cv__Chantal-img:fullscreen {
+	cursor: pointer;
+}
+.cv__Chantal-img:not(:fullscreen) {
+	background-color: #afa;
+}
+.cv__Florian-img {
+	margin: 10px;
+	padding: 10px;
+	width: 300px;
+	height: 350px;
+	border-radius: 50% 50% 49% 51% / 47% 48% 52% 53%;
+	background-color: #C3B2AF;
+	transition: all 0.5s ease-out;
+}
+
+.cv__Noah-img {
+	margin: 10px;
+	padding: 10px;
+	width: 300px;
+	height: 350px;
+	border-radius: 50% 50% 49% 51% / 47% 48% 52% 53%;
+	background-color: #C3B2AF;
+	transition: all 0.5s ease-out;
+}
+
+.cv__Adam-img {
+	margin: 10px;
+	padding: 10px;
+	width: 300px;
+	height: 350px;
+	border-radius: 50% 50% 49% 51% / 47% 48% 52% 53%;
+	background-color: #C3B2AF;
+	transition: all 0.5s ease-out;
+}
+
+/* Animations des image CV */
+
+.cv__Chantal-img:hover,
+.cv__Chantal-img:focus {
+	color: #F9ED32;
+	background-color: #C3B2AF;
+	box-shadow: 5px 5px 5px #E6F3FF;
+}
+
+.cv__Florian-img:hover,
+.cv__Florian-img:focus {
+	color: #F9ED32;
+	background-color: #C3B2AF;
+	box-shadow: 5px 5px 5px #E6F3FF;
+}
+
+.cv__Noah-img:hover,
+.cv__Noah-img:focus {
+	color: #F9ED32;
+	background-color: #C3B2AF;
+	box-shadow: 5px 5px 5px #E6F3FF;
+}
+
+.cv__Adam-img:hover,
+.cv__Adam-img:focus {
+	color: #F9ED32;
+	background-color: #C3B2AF;
+	box-shadow: 5px 5px 5px #E6F3FF;
+}

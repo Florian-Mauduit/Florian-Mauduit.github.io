@@ -1,0 +1,92 @@
+/*Bouton retour accueil*/
+
+.retour-accueil {
+  cursor: pointer;
+  width: 110px;
+  margin-left: 4%;
+  background-color: #F9ED32;
+  color: white;
+  font-size: 15px;
+  border-radius: 81% 19% 22% 78% / 50% 54% 46% 50%;
+  height: 50px;
+}
+
+.page{
+  width: 780px;
+  margin: auto;
+  font-family: 'Source sans Pro'; Calibri; Tahoma; sans-serif;
+  font-size: 16px; 
+  border: 5px solid #F9ED32;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 2px 3px 4px #B0BAC3;
+  background: #7C838A;
+  color: #E6F3FF
+}
+.infophoto{
+  height: 250px;
+}
+.info{
+  float: left;
+}
+.photo{
+  float: right;
+}
+img{
+  widht: 200px;
+  height: 255px;
+  border-radius: 30%;
+}
+.section{
+  margin-bottom: 65px;
+  text-align: justify;
+}
+.sec-gauche{
+  float: left;
+  font-weight: bold;
+  font-size: 18px;
+}
+.sec-droite{
+  margin-left: 250px;
+  margin-top: 40px;
+}
+.sec-droite-competence {
+  margin-left: 450px;
+  margin-top: 50px;
+  font-weight: bold;
+  font-size: 18px;
+}
+h2{
+  font-size: 28px;
+  color: #E6F3FF;
+  border-bottom: 3px solid #F9ED32;
+}
+.duree{
+  font-weight: normal;
+  font-style: italic;
+  font-size: 16px;
+}
+.titre{
+  font-weight: bold;
+  font-size: 20px;
+}
+#forma-gauche p{
+  margin-bottom: 9px;
+}
+#savoir-gauche p{
+  margin-bottom: 8px;
+}
+#savoir-doite p{
+  margin-bottom: 50px;
+}
+#exp-gauche p{
+  margin-bottom: 60px;  
+}
+h3{
+  font-size: 28px;
+  color: #E6F3FF;
+}
+.section-compétences{
+  margin-bottom: 65px;
+  text-align: justify;
+}
