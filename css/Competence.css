@@ -9,6 +9,29 @@
 	flex:  auto;
 }
 
+/* Animations Image */
+
+.piou-chantal:hover {
+	border: 2px solid #F9ED32;
+    padding: 5px;
+}
+
+.piou-florian:hover {
+	border: 2px solid #F9ED32;
+    padding: 5px;
+}
+
+.piou-noah:hover {
+	border: 2px solid #F9ED32;
+    padding: 5px;
+}
+
+.piou-adam:hover {
+	border: 2px solid #F9ED32;
+    padding: 5px;
+}
+
+
 /* Partie Nom des personnes */
 
 .nom_Chantal {
