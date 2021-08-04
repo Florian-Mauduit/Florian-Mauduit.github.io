@@ -50,6 +50,7 @@ li {
 }
 
 #realisation {
+	font-family: Permanent Marker;
 	width: 150px;
 	color: #F9ED32;
 	border-radius: 15px;
@@ -61,6 +62,7 @@ li {
 
 
  #competence {
+ 	font-family: Permanent Marker;
  	width: 150px;
  	color: #F9ED32;
  	border-radius: 15px;
@@ -71,6 +73,7 @@ li {
  }
 
  #contact {
+ 	font-family: Permanent Marker;
  	width: 150px;
  	color: #F9ED32;
  	border-radius: 15px;
@@ -82,7 +85,8 @@ li {
  }
 
  #CV {
- 	width: 150px;
+ 	font-family: Permanent Marker;
+ 	width: 161px;
  	color: #F9ED32;
  	border-radius: 15px;
  	margin: 10px;
