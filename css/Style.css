@@ -101,24 +101,28 @@ li {
 #realisation:focus {
 	color: #F9ED32;
 	border: 1px solid;
+	transform: scale(1.20);
 }
 
 #competence:hover,
 #competence:focus {
 	color: #F9ED32;
 	border: 1px solid;
+	transform: scale(1.20);
 }
 
 #contact:hover,
 #contact:focus {
 	color: #F9ED32;
 	border: 1px solid;
+	transform: scale(1.20);
 }
 
 #CV:hover,
 #CV:focus {
 	color: #F9ED32;
 	border: 1px solid;
+	transform: scale(1.20);
 }
  
 
@@ -143,8 +147,17 @@ h1 {
 
 .intro-paragraphes {
 	font-family: Bangers;
+	line-height: 25px;
 	text-align: center;
 	font-size: 18px;
+	border: 2px solid #E6F3FF;
+	padding: 10px;
+	margin: 60px;
+}
+
+.intro-paragraphes:hover {
+	background-color: #C3B2AF;
+	border: 5px solid #E6F3FF;
 }
 
 li {
