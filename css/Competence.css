@@ -8,43 +8,87 @@
 #col > div{
 	flex:  auto;
 }
-.element1{
+
+/* Partie Nom des personnes */
+
+.nom_Chantal {
+	font-family: Bangers;
+}
+
+.nom_Florian {
+	font-family: Bangers;
+}
+
+.nom_Noah {
+	font-family: Bangers;
+}
+
+.nom_Adam {
+	font-family: Bangers;
+}
+
+/* Partie element des personnes */
+
+.element_chantal{
+	font-family: Bangers;
 	margin: 40px 10px 500px 0;
 	text-align: center;
 	width:  250px;
 }
-.element1 img{
-	widht: 200px;
+.element_chantal img{
+  widht: 200px;
   height: 200px;
   border-radius: 30%;
 }
-.element2{
+.element_florian{
+	font-family: Bangers;
 	margin: 40px 60px 500px 0;
 	text-align: center;	
 }
-.element2 img{
-	widht: 200px;
+.element_florian img{
+  widht: 200px;
   height: 200px;
   border-radius: 30%;
 }
-.element3{
+.element_noah{
+	font-family: Bangers;
 	margin: 40px 65px 500px 0;
 	text-align: center;
 }
-.element3 img{
-	widht: 200px;
+.element_noah img{
+  widht: 200px;
   height: 200px;
   border-radius: 30%;
 }
-.element4{
+.element_adam{
+	font-family: Bangers;
 	margin: 40px 10px 500px 10px;
 	text-align: center;
 }
-.element4 img{
+.element_adam img{
 	widht: 200px;
   height: 200px;
   border-radius: 30%;
 }
+
+/*Partie text des compétences*/
+
+.text_chantal {
+	font-family: Bangers;
+}
+
+.text_florian {
+	font-family: Bangers;
+}
+
+.text_noah {
+	font-family: Bangers;
+}
+
+.text_adam {
+	font-family: Bangers;
+}
+
 h3{
 	text-align: center;
 	font-size: 2em;
