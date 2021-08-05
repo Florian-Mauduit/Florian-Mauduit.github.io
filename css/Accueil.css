@@ -1,13 +1,173 @@
+body{
+	overflow-x: hidden;
+}
+
+.body {
+	background-color: #7C838A;
+	position: absolute;
+	z-index: 1;
+	width: 100%;
+}
 /* Paralaxe */
 
 .parallax-effect {
       background-image: url("../img/piou-looking-rogner.png");
-      min-height: 600px; 
+      min-height: 672px; 
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+	  position: relative;
+	  z-index: 1;
+}
+
+
+/*.parallax-effect-img {
+      background-image: url("../img/piou-looking-rogner.png");
+      min-height: 672px; 
       background-attachment: fixed;
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
 }
+*/
+
+/* eyes tracking */
+/* eyes Noah */
+.eyes-noah {
+	position: fixed;
+    top: 420px;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+    left: -693px;
+}
+
+.eye-noah {
+	width: 60px;
+	height: 35px;
+	background: #fff;
+	display: inline-block;
+	margin: 10px;
+	border-radius: 50%;
+	position: relative;
+	overflow: hidden;
+}
+
+.ball-noah {
+	width: 15px;
+	height: 15px;
+	background: #000;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	border-radius: 50%;
+	border: 5px solid #754A3C;
+}
+
+/* Eyes florian */
+
+.eyes-florian {
+	position: fixed;
+	top: 412px;
+	transform: translateY(-50%);
+	width: 100%;
+	text-align: center;
+	left: -252px;
+}
+
+.eye-florian {
+	width: 60px;
+	height: 50px;
+	background: #fff;
+	display: inline-block;
+	margin: 23px;
+	border-radius: 50%;
+	position: relative;
+	overflow: hidden;
+	}
+
+.ball-florian {
+	width: 15px;
+	height: 15px;
+	background: #000;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	border-radius: 50%;
+	border: 5px solid #4EFA43;
+}
+
+/* Eyes chantal */
+
+.eyes-chantal {
+	position: fixed;
+	top: 400px;
+	transform: translateY(-50%);
+	width: 100%;
+	text-align: center;
+	left: 225px;
+}
+
+.eye-chantal {
+	width: 45px;
+	height: 35px;
+	background: #fff;
+	display: inline-block;
+	margin: 19px;
+	border-radius: 50%;
+	position: relative;
+	overflow: hidden;
+}
+
+.ball-chantal {
+	width: 15px;
+	height: 15px;
+	background: #000;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	border-radius: 50%;
+	border: 5px solid #4DBBFA;
+}
+
+/* eyes adam */
+
+.eyes-adam {
+	position: fixed;
+	top: 405px;
+	transform: translateY(-50%);
+	width: 100%;
+	text-align: center;
+	left: 694px;
+}
+
+.eye-adam {
+	width: 50px;
+	height: 50px;
+	background: #fff;
+	display: inline-block;
+	margin: 18px;
+	border-radius: 50%;
+	position: relative;
+	overflow: hidden;
+}
+
+.ball-adam {
+	width: 20px;
+    height: 20px;
+    background: #000;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+    border: 5px solid #000;
+}
+
 
 /* Partie navigation img */
 

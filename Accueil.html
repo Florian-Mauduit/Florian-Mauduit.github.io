@@ -24,12 +24,76 @@
     	<meta charset="utf-8">
     </head>
     <body>
-                                <!-- Paralaxe looking traking -->
-      <div class="parallax-effect"></div>
-      <!-- <div style="height:1000px;background-image: linear-gradient(to right top, #faa7e4, #f395e5, #e983e9, #dc72ee, #cb63f4); font-size:36px; text-align: center; font-family: 'Raleway', Arial, sans-serif">
-      Effet Parallaxe 
-      </div> --> 
+                                <!-- Parallaxe  -->
+      <div class="parallax-effect">
+        <div class="eyes-noah">
+          <div class="eye-noah">
+            <div class="ball-noah"></div>
+          </div>
+
+          <div class="eye-noah">
+            <div class="ball-noah"></div>
+          </div>
+        </div>
+        <div class="eyes-florian">
+          <div class="eye-florian">
+            <div class="ball-florian"></div>
+          </div>
+
+          <div class="eye-florian">
+            <div class="ball-florian"></div>
+          </div>
+        </div>
+        <div class="eyes-chantal">
+          <div class="eye-chantal">
+            <div class="ball-chantal"></div>
+          </div>
+
+          <div class="eye-chantal">
+            <div class="ball-chantal"></div>
+          </div>
+        </div>
+        <div class="eyes-adam">
+          <div class="eye-adam">
+            <div class="ball-adam"></div>
+          </div>
+
+          <div class="eye-adam">
+            <div class="ball-adam"></div>
+          </div>
+        </div>
+      </div>
+      <!-- eyes tracking -->
+
+      <!-- Partie eyes tracking js -->
+      <script>
+        var balls = document.getElementsByClassName("ball-noah");
+        var balls1 = document.getElementsByClassName("ball-florian");
+        var balls2 = document.getElementsByClassName("ball-chantal");
+        var balls3 = document.getElementsByClassName("ball-adam");
+        document.onmousemove = function(){
+          var x = event.clientX * 100 / window.innerWidth + "%";
+          var y = event.clientY * 100 / window.innerHeight + "%";
+
+
+          for(var i=0;i<2;i++){
+            balls[i].style.left = x;
+            balls[i].style.top = y;
+            balls[i].style.transform = "translate(-"+x+",-"+y+")";
+            balls1[i].style.left = x;
+            balls1[i].style.top = y;
+            balls1[i].style.transform = "translate(-"+x+",-"+y+")";
+            balls2[i].style.left = x;
+            balls2[i].style.top = y;
+            balls2[i].style.transform = "translate(-"+x+",-"+y+")";
+            balls3[i].style.left = x;
+            balls3[i].style.top = y;
+            balls3[i].style.transform = "translate(-"+x+",-"+y+")";
+          }
+        }
+      </script>   
                                 <!-- Partie menu de navigation -->
+      <div class="body">
       <div id="cross-fading">
         <a href="Accueil.html"><img src="img/Oeuf-modifier.png" id="Oeuf" class="Oeuf-bas"></a>
         <a href="Accueil.html"><img src="img/Oeuf-socle-modifier.png" class="Oeuf-top"></a>
@@ -168,6 +232,7 @@
                     </div>
                 </div>
         </section>
+        
         <script src="script.js"></script>
     	<footer>
     		<p class="credits">Ce site a été crée par Florian, Chantal, Noah et Adam</p>
@@ -175,5 +240,6 @@
             <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>
             </svg></a>
     	</footer>
+    </div>
     </body>
 </html>
