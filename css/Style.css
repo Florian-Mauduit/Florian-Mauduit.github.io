@@ -100,29 +100,33 @@ li {
 #realisation:hover,
 #realisation:focus {
 	color: #F9ED32;
-	border: 1px solid;
+	border: 2px solid;
 	transform: scale(1.20);
+	box-shadow: 0px 1px 10px 2px black;
 }
 
 #competence:hover,
 #competence:focus {
 	color: #F9ED32;
-	border: 1px solid;
+	border: 2px solid;
 	transform: scale(1.20);
+	box-shadow: 0px 1px 10px 2px black;
 }
 
 #contact:hover,
 #contact:focus {
 	color: #F9ED32;
-	border: 1px solid;
+	border: 2px solid;
 	transform: scale(1.20);
+	box-shadow: 0px 1px 10px 2px black;
 }
 
 #CV:hover,
 #CV:focus {
 	color: #F9ED32;
-	border: 1px solid;
+	border: 2px solid;
 	transform: scale(1.20);
+	box-shadow: 0px 1px 10px 2px black;
 }
  
 
@@ -156,8 +160,8 @@ h1 {
 }
 
 .intro-paragraphes:hover {
-	background-color: #C3B2AF;
-	border: 5px solid #E6F3FF;
+	background: rgb(195,178,175);
+	background: linear-gradient(0deg, rgba(195,178,175,1) 0%, rgba(230,243,255,1) 100%);
 }
 
 li {
