@@ -26,6 +26,7 @@
     <body>
                                 <!-- Parallaxe  -->
       <div class="parallax-effect">
+        <!-- Eyes Noah -->
         <div class="eyes-noah">
           <div class="eye-noah">
             <div class="ball-noah"></div>
@@ -35,6 +36,7 @@
             <div class="ball-noah"></div>
           </div>
         </div>
+        <!-- Eyes Florian -->
         <div class="eyes-florian">
           <div class="eye-florian">
             <div class="ball-florian"></div>
@@ -44,6 +46,7 @@
             <div class="ball-florian"></div>
           </div>
         </div>
+        <!-- Eyes Chantal -->
         <div class="eyes-chantal">
           <div class="eye-chantal">
             <div class="ball-chantal"></div>
@@ -53,6 +56,7 @@
             <div class="ball-chantal"></div>
           </div>
         </div>
+        <!-- Eyes Adam -->
         <div class="eyes-adam">
           <div class="eye-adam">
             <div class="ball-adam"></div>
@@ -63,35 +67,6 @@
           </div>
         </div>
       </div>
-      <!-- eyes tracking -->
-
-      <!-- Partie eyes tracking js -->
-      <script>
-        var balls = document.getElementsByClassName("ball-noah");
-        var balls1 = document.getElementsByClassName("ball-florian");
-        var balls2 = document.getElementsByClassName("ball-chantal");
-        var balls3 = document.getElementsByClassName("ball-adam");
-        document.onmousemove = function(){
-          var x = event.clientX * 100 / window.innerWidth + "%";
-          var y = event.clientY * 100 / window.innerHeight + "%";
-
-
-          for(var i=0;i<2;i++){
-            balls[i].style.left = x;
-            balls[i].style.top = y;
-            balls[i].style.transform = "translate(-"+x+",-"+y+")";
-            balls1[i].style.left = x;
-            balls1[i].style.top = y;
-            balls1[i].style.transform = "translate(-"+x+",-"+y+")";
-            balls2[i].style.left = x;
-            balls2[i].style.top = y;
-            balls2[i].style.transform = "translate(-"+x+",-"+y+")";
-            balls3[i].style.left = x;
-            balls3[i].style.top = y;
-            balls3[i].style.transform = "translate(-"+x+",-"+y+")";
-          }
-        }
-      </script>   
                                 <!-- Partie menu de navigation -->
       <div class="body">
       <div id="cross-fading">
