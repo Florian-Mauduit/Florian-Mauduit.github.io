@@ -1,3 +1,14 @@
+/* Paralaxe */
+
+.parallax-effect {
+      background-image: url("../img/piou-looking-rogner.png");
+      min-height: 600px; 
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+}
+
 /* Partie navigation img */
 
 .img_AN {
