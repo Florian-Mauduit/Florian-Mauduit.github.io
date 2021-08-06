@@ -40,3 +40,19 @@ var balls = document.getElementsByClassName("ball-noah");
             balls3[i].style.transform = "translate(-"+x+",-"+y+")";
           }
         }
+
+
+/* Fonction popup pour les cv*/
+
+var cv__chantal = document.getElementById('cv__chantal');
+var overlay = document.getElementById('overlay');
+cv__chantal.addEventListener('click',openMoadl);
+function openMoadl() {
+overlay.style.display='block';
+}
+
+var btnClose = document.getElementById('btnClose');
+btnClose.addEventListener('click',closeModal);
+function closeModal(){
+  overlay.style.display='none';
+}
