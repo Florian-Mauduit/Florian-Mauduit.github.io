@@ -38,7 +38,18 @@
     	<div class="cv">
     		<!-- Cv Chantal -->
 	    	<div class="cv__Chantal">
-	    		<button class="btn-chantal">Cv de Chantal</button>
+	    		<button id="btnchantal" class="btn-chantal">Cv de Chantal</button>
+	    		<div id="overlaychantal" class="overlay-chantal">
+            <div id="popupchantal" class="popup-chantal">
+              <h2 class="popup-titre-chantal">
+                Cv de Chantal 
+              <span id="btnClosechantal" class="btnClose-chantal">&times;</span>
+              </h2>
+              <div class="popup-cv">
+                  <iframe class="cv-chantal-pdf" src="img/cv-florian.pdf" width="100%" height="500px"></iframe>
+              </div>
+            </div>
+          </div>
 	    		<img src="img/Chantal.png" alt="img-logo-Chantal" class="cv__Chantal-img" width="200px" height="250px">
 	    		<h3 class="nom_Chantal">Chantal</h3>
           <ul class="cv-text">
@@ -52,7 +63,18 @@
 	    	</div>
 	    	<!-- Cv Florian -->
 	    		<div class="cv__Florian">
-	    			<button class="btn-florian">Cv de Florian</button>
+	    			<button id="btnflorian" class="btn-florian">Cv de Florian</button>
+	    			<div id="overlayflorian" class="overlay-florian">
+	            <div id="popupflorian" class="popup-florian">
+		              <h2 class="popup-titre-florian">
+		                Cv de Florian 
+		              <span id="btnCloseflorian" class="btnClose-florian">&times;</span>
+		              </h2>
+		              <div class="popup-cv-florian">
+		                  <iframe class="cv-florian-pdf" src="img/cv-florian.pdf" width="100%" height="500px"></iframe>
+		              </div>
+	            </div>
+          	</div>
 			    		<img src="img/Florian.png" alt="img-logo-Florian" class="cv__Florian-img" width="200px" height="250px">
 			    		<h3 class="nom_Florian">Florian</h3>
 		          <ul class="cv-text">
@@ -72,7 +94,18 @@
 		      </div>
 	    	<!-- Cv Noah -->
 	    		<div class="cv__Noah">
-	    			<button class="btn-noah">Cv de Noah</button>
+	    			<button id="btnnoah" class="btn-noah">Cv de Noah</button>
+	    			<div id="overlaynoah" class="overlay-noah">
+	            <div id="popupnoah" class="popup-noah">
+		              <h2 class="popup-titre-noah">
+		                Cv de Noah 
+		              <span id="btnClosenoah" class="btnClose-noah">&times;</span>
+		              </h2>
+		              <div class="popup-cv-noah">
+		                  <iframe class="cv-noah-pdf" src="img/cv-florian.pdf" width="100%" height="500px"></iframe>
+		              </div>
+	            </div>
+          	</div>
 		    		<img src="img/Noah.png" alt="img-logo-Noah" class="cv__Noah-img" width="200px" height="250px">
 		    		<h3 class="nom_Noah">Noah</h3>
 	          <ul class="cv-text">
@@ -88,7 +121,18 @@
 	        </div>
 	    	<!-- Cv Adam -->
 	    		<div class="cv__Adam">
-	    		<button class="btn-adam">Cv de Adam</button>	    			
+	    		<button id="btnadam" class="btn-adam">Cv de Adam</button>
+	    		<div id="overlayadam" class="overlay-adam">
+	            <div id="popupadam" class="popup-adam">
+		              <h2 class="popup-titre-adam">
+		                Cv de Adam 
+		              <span id="btnCloseadam" class="btnClose-adam">&times;</span>
+		              </h2>
+		              <div class="popup-cv-adam">
+		                  <iframe class="cv-adam-pdf" src="img/cv-florian.pdf" width="100%" height="500px"></iframe>
+		              </div>
+	            </div>
+          	</div>    			
 		    		<img src="img/Adam.png" alt="img-logo-Adam" class="cv__Adam-img" width="200px" height="250px">
 		    		<h3 class="nom_Adam">Adam</h3>
 	          <ul class="cv-text">
@@ -100,7 +144,7 @@
 	            <br>
 	          </ul>
     			</div>
-    		</div>							
+    		</div>						
     													<!-- Bas de page -->
     	<footer>
     		<p class="credits">Ce site a été crée par Florian, Chantal, Noah et Adam</p>
@@ -108,5 +152,6 @@
             <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>
             </svg></a>
     	</footer>
+    	<script src="script-cv.js"></script>	
 	</body>
 </html>
