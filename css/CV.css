@@ -7,19 +7,28 @@
 	margin-left: 1%;
 }
 
+/*Cv Chantal*/
+
 .cv__Chantal {
 	margin: 10px;
 	padding: 10px;
 }
+
+/* Cv Florian */
+
 .cv__Florian {
 	margin: 10px;
 	padding: 10px;
 }
 
+/* CV Noah */
+
 .cv__Noah {
 	margin: 10px;
 	padding: 10px;
 }
+
+/* Cv Adam */
 
 .cv__Adam {
 	margin: 10px;
@@ -38,13 +47,6 @@
 	transition: all 0.5s ease-out;
 }
 
-.cv__Chantal-img:active,
-.cv__Chantal-img:fullscreen {
-	cursor: pointer;
-}
-.cv__Chantal-img:not(:fullscreen) {
-	background-color: #afa;
-}
 .cv__Florian-img {
 	margin: 10px;
 	padding: 10px;
