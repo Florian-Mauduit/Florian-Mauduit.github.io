@@ -4,20 +4,43 @@
 .cv {
 	display: flex;
 	margin: 10px;
-	margin-left: 1%;
+	margin-left: 6%;
+	margin-top: 70px;
 }
 
 .cv-text {
 	text-align: center;
+	background-color: #C3B2AF;
+	border-radius: 2em;
+	padding: 5px;
+	margin: 15px;
+	transition: all 0.5s ease-out;
+}
+.cv-text:hover {
+	transform: scale(1.1);
+	border: 3px solid #F9ED32;
 }
 
 /*Cv Chantal*/
+
+.btn-chantal {
+	width: 325px;
+	height: 35px;
+	height: 5%;
+	border-radius: 2em;
+	background-color: darkgray;
+	font-size: 18px;
+	font-family: Bangers;
+	margin-left: 3px;
+	cursor: pointer;
+}
 
 .nom_Chantal {
 	margin-top: 20px;
 	text-align: center;
 	font-family: Bangers;
 	font-size: 25px;
+	text-decoration: underline;
 }
 
 .text_chantal {
@@ -27,8 +50,8 @@
 }
 
 .cv__Chantal {
-	margin: 10px;
-	padding: 10px;
+	/*margin: 10px;
+	padding: 10px;*/
 }
 /* Partie cv popup Chantal */
 .overlay {
@@ -71,11 +94,24 @@
 
 /* Cv Florian */
 
+.btn-florian {
+	width: 325px;
+	height: 35px;
+	height: 5%;
+	border-radius: 2em;
+	background-color: darkgray;
+	font-size: 18px;
+	font-family: Bangers;
+	margin-left: 3px;
+	cursor: pointer;
+}
+
 .nom_Florian {
 	margin-top: 20px;
 	text-align: center;
 	font-family: Bangers;
 	font-size: 25px;
+	text-decoration: underline;
 }
 
 .text_florian {
@@ -85,17 +121,30 @@
 }
 
 .cv__Florian {
-	margin: 10px;
-	padding: 10px;
+	/*margin: 10px;
+	padding: 10px;*/
 }
 
 /* CV Noah */
+
+.btn-noah {
+	width: 325px;
+	height: 35px;
+	height: 5%;
+	border-radius: 2em;
+	background-color: darkgray;
+	font-size: 18px;
+	font-family: Bangers;
+	margin-left: 3px;
+	cursor: pointer;
+}
 
 .nom_Noah {
 	margin-top: 20px;
 	text-align: center;
 	font-family: Bangers;
 	font-size: 25px;
+	text-decoration: underline;
 }
 
 .text_noah {
@@ -105,17 +154,30 @@
 }
 
 .cv__Noah {
-	margin: 10px;
-	padding: 10px;
+	/*margin: 10px;
+	padding: 10px;*/
 }
 
 /* Cv Adam */
+
+.btn-adam {
+	width: 325px;
+	height: 35px;
+	height: 5%;
+	border-radius: 2em;
+	background-color: darkgray;
+	font-size: 18px;
+	font-family: Bangers;
+	margin-left: 3px;
+	cursor: pointer;
+}
 
 .nom_Adam {
 	margin-top: 20px;
 	text-align: center;
 	font-family: Bangers;
 	font-size: 25px;
+	text-decoration: underline;
 }
 
 .text_adam {
@@ -125,8 +187,8 @@
 }
 
 .cv__Adam {
-	margin: 10px;
-	padding: 10px;
+	/*margin: 10px;
+	padding: 10px;*/
 }
 
 /*Img de chaque de CV*/
@@ -136,7 +198,7 @@
 	padding: 10px;
 	width: 300px;
 	height: 350px;
-	/*border-radius: 50% 50% 49% 51% / 47% 48% 52% 53%;*/
+	border-radius: 2em;
 	background-color: #C3B2AF;
 	transition: all 0.5s ease-out;
 }
@@ -146,7 +208,7 @@
 	padding: 10px;
 	width: 300px;
 	height: 350px;
-	border-radius: 50% 50% 49% 51% / 47% 48% 52% 53%;
+	border-radius: 2em;
 	background-color: #C3B2AF;
 	transition: all 0.5s ease-out;
 }
@@ -156,7 +218,7 @@
 	padding: 10px;
 	width: 300px;
 	height: 350px;
-	border-radius: 50% 50% 49% 51% / 47% 48% 52% 53%;
+	border-radius: 2em;
 	background-color: #C3B2AF;
 	transition: all 0.5s ease-out;
 }
@@ -166,37 +228,7 @@
 	padding: 10px;
 	width: 300px;
 	height: 350px;
-	border-radius: 50% 50% 49% 51% / 47% 48% 52% 53%;
+	border-radius: 2em;
 	background-color: #C3B2AF;
 	transition: all 0.5s ease-out;
-}
-
-/* Animations des image CV */
-
-.cv__Chantal-img:hover,
-.cv__Chantal-img:focus {
-	color: #F9ED32;
-	background-color: #C3B2AF;
-	box-shadow: 5px 5px 5px #E6F3FF;
-}
-
-.cv__Florian-img:hover,
-.cv__Florian-img:focus {
-	color: #F9ED32;
-	background-color: #C3B2AF;
-	box-shadow: 5px 5px 5px #E6F3FF;
-}
-
-.cv__Noah-img:hover,
-.cv__Noah-img:focus {
-	color: #F9ED32;
-	background-color: #C3B2AF;
-	box-shadow: 5px 5px 5px #E6F3FF;
-}
-
-.cv__Adam-img:hover,
-.cv__Adam-img:focus {
-	color: #F9ED32;
-	background-color: #C3B2AF;
-	box-shadow: 5px 5px 5px #E6F3FF;
 }
