@@ -1,3 +1,5 @@
+/* Fonction Popup*/
+
 var jaune = document.getElementById('jaune');
 var overlay = document.getElementById('overlay');
 jaune.addEventListener('click',openMoadl);

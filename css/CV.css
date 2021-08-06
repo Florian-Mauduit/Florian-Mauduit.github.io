@@ -7,7 +7,23 @@
 	margin-left: 1%;
 }
 
+.cv-text {
+	text-align: center;
+}
+
 /*Cv Chantal*/
+
+.nom_Chantal {
+	text-align: center;
+	font-family: Bangers;
+	font-size: 25px;
+}
+
+.text_chantal {
+	text-align: center;
+	font-family: Bangers;
+	font-size: 20px;
+}
 
 .cv__Chantal {
 	margin: 10px;
@@ -16,6 +32,18 @@
 
 /* Cv Florian */
 
+.nom_Florian {
+	text-align: center;
+	font-family: Bangers;
+	font-size: 25px;
+}
+
+.text_florian {
+	text-align: center;
+	font-family: Bangers;
+	font-size: 20px;
+}
+
 .cv__Florian {
 	margin: 10px;
 	padding: 10px;
@@ -23,12 +51,36 @@
 
 /* CV Noah */
 
+.nom_Noah {
+	text-align: center;
+	font-family: Bangers;
+	font-size: 25px;
+}
+
+.text_noah {
+	text-align: center;
+	font-family: Bangers;
+	font-size: 20px;
+}
+
 .cv__Noah {
 	margin: 10px;
 	padding: 10px;
 }
 
 /* Cv Adam */
+
+.nom_Adam {
+	text-align: center;
+	font-family: Bangers;
+	font-size: 25px;
+}
+
+.text_adam {
+	text-align: center;
+	font-family: Bangers;
+	font-size: 20px;
+}
 
 .cv__Adam {
 	margin: 10px;
