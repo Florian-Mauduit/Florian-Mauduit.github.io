@@ -1,15 +1,17 @@
 /* Animations Fondu */
 
 .Oeuf-top {
-	width: 52%;
+	width: 102%;
 	height: 100%;
-	margin-left: -3%;
+	margin-left: -25px;
 	margin-top: -1%;
 }
 
 .Oeuf-bas {
-	width: 46%;
-	height: 92%;
+	width: 106%;
+	height: 100%;
+	top: -4px;
+	margin-left: -30px;
 }
 
 #cross-fading {
