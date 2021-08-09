@@ -190,11 +190,11 @@ header {
 
 /* Retour en Haut */
 
-.Up {
-	margin-left: 90%;
-	margin-top: -150px;
-	margin-bottom: 135px;
-	height: 70px;
-	width: 84px;
-	color: #F9ED32;
+.up {
+	  font-size: 6em;
+    text-decoration: none;
+    color: #F9ED32;
+    float: right;
+    margin-right: 40px;
+    margin-top: -170px;
 }
