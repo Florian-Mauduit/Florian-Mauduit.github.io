@@ -1,4 +1,4 @@
-/* Fonction popup pour le cv de Chantal*/
+// Fonction popup pour le cv de Chantal
 
 var btnchantal = document.getElementById('btnchantal');
 var overlaychantal = document.getElementById('overlaychantal');
@@ -13,7 +13,7 @@ function closeModal(){
   overlaychantal.style.display='none';
 }
 
-/* Fonction popup pour le cv de Florian */
+// Fonction popup pour le cv de Florian
 
 var btnflorian = document.getElementById('btnflorian');
 var overlayflorian = document.getElementById('overlayflorian');
@@ -28,7 +28,7 @@ function closeModal(){
   overlayflorian.style.display='none';
 }
 
-/* Fonction popup pour le cv de Noah*/
+// Fonction popup pour le cv de Noah
 
 var btnnoah = document.getElementById('btnnoah');
 var overlaynoah = document.getElementById('overlaynoah');
@@ -43,7 +43,7 @@ function closeModal(){
   overlaynoah.style.display='none';
 }
 
-/* Fonction popup pour le cv de Adam*/
+// Fonction popup pour le cv de Adam
 
 var btnadam = document.getElementById('btnadam');
 var overlayadam = document.getElementById('overlayadam');

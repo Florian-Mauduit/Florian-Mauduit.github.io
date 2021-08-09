@@ -93,7 +93,7 @@
 	margin-right: 30%;
 }
 
-.cv-chantal-pdf {
+.cv-chantal {
 	margin-left: 230px;
 	width: 800px;
 	height: 580px;
@@ -172,7 +172,7 @@
 	margin-right: 30%;
 }
 
-.cv-florian-pdf {
+.cv-florian {
 	margin-left: 230px;
 	width: 800px;
 	height: 580px;
@@ -253,7 +253,7 @@
 	margin-right: 30%;
 }
 
-.cv-noah-pdf {
+.cv-noah {
 	margin-left: 230px;
 	width: 800px;
 	height: 580px;
@@ -329,11 +329,7 @@
     font-size: 30px;
 }
 
-.popup-cv-adam {
-	margin-right: 30%;
-}
-
-.cv-adam-pdf {
+.cv-adam {
 	margin-left: 230px;
 	width: 800px;
 	height: 580px;
