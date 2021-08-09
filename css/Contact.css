@@ -1,3 +1,22 @@
+/*--- Séparateur ---*/
+
+.contactez-nous {
+	font-family: Bangers;
+	margin-left: 45%;
+	margin-top: 10%;
+	font-size: 24px;
+	color: #F9ED32;
+}
+
+.separer {
+	height: 3px;
+	color: #C3B2AF;
+	background-color: #C3B2AF;
+	width: 167px;
+	margin-left: 44%;
+	margin-top: 10px;
+}
+
 /* Retour en haut */
 .Up {
 	margin-left: 90%;
