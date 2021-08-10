@@ -1,13 +1,10 @@
-body{
-	overflow-x: hidden;
-}
-
 .body {
 	background-color: #7C838A;
 	position: absolute;
 	z-index: 1;
 	width: 100%;
 }
+
 /* Paralaxe */
 
 .parallax-effect {
@@ -251,6 +248,10 @@ body{
 	width: 940px;
 }
 
+.main {
+	z-index: -1;
+}
+
 iframe {
 	width: 727px;
 	height: 501px;
@@ -261,12 +262,12 @@ iframe {
 }
 
 .mario {
-	width: 763px;
+	width: 727px;
 	height: 501px;
-	margin-left: 150px;
+	margin-left: 126px;
 	margin-right: auto;
 	position: absolute;
-	margin-top: 16px;
+	margin-top: -1324px;
 }
 
 /* Partie Buttons Play */
