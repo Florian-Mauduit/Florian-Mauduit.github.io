@@ -257,38 +257,7 @@ iframe {
 	margin-left: -812px;
 	margin-right: auto;
 	position: absolute;
-	z-index: 2;
 	margin-top: 165px;
-}
-
-/* Bouton de déplacement */
-
-.deplacement {
-	position: relative;
-	width: 300px;
-	height: 300px;
-	margin: 0;
-}
-
-.barreH {
-	position: absolute;
-	border-radius: 12%;
-    margin-left: 60%;
-    width: 30px;
-    height: 200px;
-    background-color: black;
-}
-
-.barreL{
-    position: relative;
-    border-radius: 12%;
-    margin-top: 10%;
-    margin-left: 35%;
-    top: 80px;
-    right: 5px;
-    width: 200px;
-    height: 30px;
-    background-color: black;
 }
 
 /* Partie Buttons Play */
@@ -310,64 +279,31 @@ button {
 	border-radius: 95% 5% 93% 7% / 90% 9% 91% 10%;
 }
 
-/* Bouton Start & Select */
-
-.btn-start-select {
-	display: flex;
-	margin-left: 47%;
-	margin-top: -100px;
-}
-
-.btn-start {
-	width: 50px;
-	height: 10px;
-	margin-bottom: 10px;
-}
-
-.start {
-	margin-right: 20px;
-}
-
-.start-police {
-	font-family: Permanent Marker;
-	font-size: 19px;
-}
-
-.btn-select {
-	width: 50px;
-	height: 10px;
-	margin-bottom: 10px;
-}
-
-.select-police {
-	font-family: Permanent Marker;
-	font-size: 19px;
-}
+/* Bouton Jaune & Bleu */
 
 .jaune {
 	border-radius: 50%;
-	margin: 10px;
-	margin-top: 60px;
+	margin-top: -581px;
+	margin-left: 754px;
 	padding: 10px;
-	padding: 10px;
-	width: 50px;
-	height: 50px;
-	background-color: red;
-	color: white;
-	font-family: Permanent Marker;
+	width: 110px;
+	height: 110px;
+	background-color: #f00;
+	position: absolute;
+	border: none;
 }
 
 .bleu {
 	border-radius: 50%;
-	margin-top: 10px;
+	margin-top: -520px;
+	margin-left: 623px;
 	padding: 10px;
-	margin: 10px;
-	padding: 10px;
-	width: 50px;
-	height: 50px;
-	background-color: red;
+	width: 110px;
+	height: 110px;
+	background-color: #f00;
 	color: white;
-	font-family: Permanent Marker;
+	position: absolute;
+	border: none;
 }
 
 /*Partie jeu popup*/
