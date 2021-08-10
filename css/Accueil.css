@@ -375,8 +375,39 @@ button {
 
 /* Responsive Accueil  Mobile*/
 
-@media all and (max-width: 600px) {
+@media screen and (max-width: 600px) {
 	.parallax-effect {
 		display: none;
+	}
+	.Oeuf-top {
+		display: none;
+	}
+
+	img {
+		margin-left: auto;
+	}
+
+	.jaune, .bleu {
+		display: none;
+	}
+
+	.gameboy{
+		display: none;
+	}
+
+	iframe{
+		display: none;
+	}
+
+	.ecran {
+		display: block;
+	}
+
+	.form {
+		border-radius: none;
+	}
+
+	.control {
+		display: block;
 	}
 }
