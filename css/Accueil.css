@@ -176,7 +176,7 @@ body{
 }
 
 .img_CF {
-	margin-left: 25%;
+	margin-left: 2%;
 }
 
 .image_Chantal:hover,
@@ -247,11 +247,18 @@ body{
 	padding: 12px;
 }
 
+.gameboy {
+	width: 940px;
+}
+
 iframe {
-	width: 600px;
-	height: 600px;
-	margin-left: 30%;
+	width: 727px;
+	height: 501px;
+	margin-left: -812px;
 	margin-right: auto;
+	position: absolute;
+	z-index: 2;
+	margin-top: 165px;
 }
 
 /* Bouton de déplacement */
