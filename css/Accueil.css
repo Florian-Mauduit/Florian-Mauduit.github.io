@@ -260,6 +260,15 @@ iframe {
 	margin-top: 165px;
 }
 
+.mario {
+	width: 763px;
+	height: 501px;
+	margin-left: 150px;
+	margin-right: auto;
+	position: absolute;
+	margin-top: 16px;
+}
+
 /* Partie Buttons Play */
 
 button {
@@ -278,8 +287,6 @@ button {
 	width: 150px;
 	border-radius: 95% 5% 93% 7% / 90% 9% 91% 10%;
 }
-
-/* Bouton Jaune & Bleu */
 
 .jaune {
 	border-radius: 50%;
