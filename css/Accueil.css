@@ -376,11 +376,19 @@ button {
 /* Responsive Accueil  Mobile*/
 
 @media screen and (max-width: 600px) {
+	.body {
+		overflow-x: hidden;
+	}
+
 	.parallax-effect {
 		display: none;
 	}
 	.Oeuf-top {
 		display: none;
+	}
+
+	#Oeuf {
+		margin-left: -100px;
 	}
 
 	img {
@@ -400,14 +408,6 @@ button {
 	}
 
 	.ecran {
-		display: block;
-	}
-
-	.form {
-		border-radius: none;
-	}
-
-	.control {
 		display: block;
 	}
 }

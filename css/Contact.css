@@ -98,12 +98,13 @@
 
 .submit {
 	font-family: Bangers;
+	font-size: 18px;
 	position: absolute;
 	margin-left: 200px;
 	margin-top: 10px;
 	width: 150px;
 	height: 30px;
-	color: #7C838A;
+	color: #080707;
 	background-color: #F9ED32;
 	border-radius: 24% 77% 69% 31% / 42% 54% 46% 58%;
 	box-shadow: 4px 10px 15px #7C838A;
@@ -111,13 +112,77 @@
 
 .cancel {
 	font-family: Bangers;
+	font-size: 18px;
 	margin-left: 360px;
 	margin-top: 10px;
 	width: 150px;
 	height: 30px;
-	color: #7C838A;
+	color: #080707;
 	background-color: #F9ED32;
 	border-radius: 81% 19% 22% 78% / 50% 54% 46% 50%;
 	box-shadow: 4px 10px 15px #7C838A;
+}
+
+@media screen and (max-width: 600px) {
 	
+	.separation {
+		margin-left: -100px;
+	}
+
+	.form {
+		width: 241px;
+		margin-left: 58px;
+		border-radius: unset;
+		margin-top: 20px;
+	}
+
+	.input {
+		width: 200px;
+		margin-left: 15px;
+	}
+
+	.name {
+		margin-left: 15px;
+	}
+
+	.username {
+		margin-left: 15px;
+	}
+
+	.email {
+		margin-left: 15px;
+	}
+
+	.message {
+		margin-left: 11px;
+	}
+
+	.textarea {
+		width: 200px;
+		margin-left: auto;
+	}
+
+	.checkbox {
+		margin: auto;
+	}
+
+	.submit {
+		margin-top: 10px;
+		margin-left: -11px;
+		width: 110px;
+	}
+
+	.cancel {
+		margin-left: 120px;
+		width: 110px;
+	}
+
+	.up {
+		float: left;
+		margin-top: -190px;
+	}
+
+	.credits {
+		margin-top: 610px;
+	}
 }
