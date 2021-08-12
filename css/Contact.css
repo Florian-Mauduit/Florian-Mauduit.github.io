@@ -168,21 +168,12 @@
 
 	.submit {
 		margin-top: 10px;
-		margin-left: -11px;
+		margin-left: 3px;
 		width: 110px;
 	}
 
 	.cancel {
 		margin-left: 120px;
-		width: 110px;
-	}
-
-	.up {
-		float: left;
-		margin-top: -190px;
-	}
-
-	.credits {
-		margin-top: 610px;
+		width: 130px;
 	}
 }

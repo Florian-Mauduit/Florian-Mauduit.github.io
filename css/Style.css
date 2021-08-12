@@ -198,3 +198,26 @@ header {
     margin-right: 40px;
     margin-top: -170px;
 }
+
+@media screen and (max-width: 600px){
+	.body {
+		overflow-x: hidden;
+	}
+
+	.Oeuf-top {
+		display: none;
+	}
+
+	#Oeuf {
+		margin-left: -130px;
+	}
+
+	.up {
+		float: left;
+		margin-top: -190px;
+	}
+
+	.credits {
+		margin-top: 610px;
+	}
+}
