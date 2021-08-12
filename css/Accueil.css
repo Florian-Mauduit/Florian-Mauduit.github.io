@@ -373,7 +373,7 @@ button {
 }
 
 
-/* Responsive Accueil  Mobile*/
+/*--- Partie responsive ---*/
 
 @media screen and (max-width: 600px) {
 	.parallax-effect {

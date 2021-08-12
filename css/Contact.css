@@ -123,6 +123,8 @@
 	box-shadow: 4px 10px 15px #7C838A;
 }
 
+/*--- Partie responsive ---*/
+
 @media screen and (max-width: 600px) {
 	
 	.separation {

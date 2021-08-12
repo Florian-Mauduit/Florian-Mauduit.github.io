@@ -199,8 +199,14 @@ header {
     margin-top: -170px;
 }
 
+/*--- Partie responsive ---*/
+
 @media screen and (max-width: 600px){
 	.body {
+		overflow-x: hidden;
+	}
+
+	body {
 		overflow-x: hidden;
 	}
 
