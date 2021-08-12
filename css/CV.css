@@ -390,8 +390,8 @@
 	}
 
 	.cv-chantal {
-		margin-left: auto;
-		width: auto;
+		margin-left: -6px;
+		width: 315px;
 		height: 350px;
 	}
 
@@ -402,8 +402,8 @@
 	}
 
 	.cv-florian {
-		margin-left: auto;
-		width: auto;
+		margin-left: -6px;
+		width: 315px;
 		height: 350px;
 	}
 
@@ -414,8 +414,8 @@
 	}
 
 	.cv-noah {
-		margin-left: auto;
-		width: auto;
+		margin-left: -6px;
+		width: 315px;
 		height: 350px;
 	}
 
@@ -426,8 +426,8 @@
 	}
 
 	.cv-adam {
-		margin-left: auto;
-		width: auto;
+		margin-left: -6px;
+		width: 315px;
 		height: 350px;
 	}
 }
