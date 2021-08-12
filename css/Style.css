@@ -206,10 +206,6 @@ header {
 		overflow-x: hidden;
 	}
 
-	body {
-		overflow-x: hidden;
-	}
-
 	.Oeuf-top {
 		display: none;
 	}
@@ -222,7 +218,7 @@ header {
 		float: left;
 		margin-top: -190px;
 	}
-
+	
 	.credits {
 		margin-top: 610px;
 	}

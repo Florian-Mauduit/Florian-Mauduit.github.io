@@ -378,4 +378,56 @@
 }
 
 /*--- Partie responsive ---*/
-@media screen and (max-width: 600px)
+@media screen and (max-width: 600px) {
+	.cv {
+		display: inline-block;
+	}
+
+	.btn-chantal {
+		width: 325px;
+		height: 35px;
+		margin-top: 15px;
+	}
+
+	.cv-chantal {
+		margin-left: auto;
+		width: auto;
+		height: 350px;
+	}
+
+	.btn-florian {
+		width: 325px;
+		height: 35px;
+		margin-top: 15px;
+	}
+
+	.cv-florian {
+		margin-left: auto;
+		width: auto;
+		height: 350px;
+	}
+
+	.btn-noah {
+		width: 325px;
+		height: 35px;
+		margin-top: 15px;
+	}
+
+	.cv-noah {
+		margin-left: auto;
+		width: auto;
+		height: 350px;
+	}
+
+	.btn-adam {
+		width: 325px;
+		height: 35px;
+		margin-top: 15px;
+	}
+
+	.cv-adam {
+		margin-left: auto;
+		width: auto;
+		height: 350px;
+	}
+}
