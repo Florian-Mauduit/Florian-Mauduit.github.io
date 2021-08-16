@@ -255,7 +255,7 @@
 iframe {
 	width: 727px;
 	height: 501px;
-	margin-left: -812px;
+	margin-left: -806px;
 	margin-right: auto;
 	position: absolute;
 	margin-top: 165px;
@@ -264,10 +264,10 @@ iframe {
 .mario {
 	width: 727px;
 	height: 501px;
-	margin-left: 126px;
+	margin-left: 135px;
 	margin-right: auto;
 	position: absolute;
-	margin-top: -1324px;
+	margin-top: -1312px;
 }
 
 /* Partie Buttons Play */
@@ -291,10 +291,10 @@ button {
 
 .jaune {
 	border-radius: 50%;
-	margin-top: -581px;
-	margin-left: 754px;
+	margin-top: -572px;
+	margin-left: 763px;
 	padding: 10px;
-	width: 110px;
+	width: 100px;
 	height: 110px;
 	background-color: #f00;
 	position: absolute;
@@ -303,13 +303,12 @@ button {
 
 .bleu {
 	border-radius: 50%;
-	margin-top: -520px;
-	margin-left: 623px;
+	margin-top: -510px;
+	margin-left: 627px;
 	padding: 10px;
-	width: 110px;
+	width: 100px;
 	height: 110px;
 	background-color: #f00;
-	color: white;
 	position: absolute;
 	border: none;
 }
