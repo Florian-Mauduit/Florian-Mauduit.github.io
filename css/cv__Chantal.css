@@ -11,10 +11,33 @@
   height: 50px;
 }
 
+*{
+  box-sizing: border-box;
+}
+
+/* ---- Param Titre ------*/
+h4{
+  font-size: 50px;  
+  text-transform: uppercase;
+  text-align: center;
+}
+
+h3{
+  font-size: 45px;
+  color: #E6F3FF;
+}
+
+h2{
+  font-size: 45px;
+  color: #E6F3FF;
+  border-bottom: 3px solid #F9ED32;
+  padding-left: 0.5%;
+}
+/* ----- Fin Param titre  --- */
+
 .page{
-  width: 780px;
   margin: auto;
-  font-family: 'Source sans Pro'; Calibri; Tahoma; sans-serif;
+  font-family: 'Source sans Pro', 'Calibri', 'Tahoma', 'sans-serif';
   font-size: 16px; 
   border: 5px solid #F9ED32;
   border-radius: 20px;
@@ -23,70 +46,182 @@
   background: #7C838A;
   color: #E6F3FF
 }
+
+/* ----------Param Info photo ----------- */
 .infophoto{
-  height: 250px;
+  height: 600px;
 }
+
 .info{
   float: left;
+  font-size: 32px;
+  padding: 0 0 0 0.5%;
 }
+
 .photo{
   float: right;
+  width: 340px;
+  margin: 0.5% 3.5% 0 0;
 }
+
 img{
-  widht: 200px;
-  height: 255px;
+  width: auto;
+  height: 80%;
   border-radius: 30%;
+  max-height: 530px;
 }
+
+.responsive{
+  width: 100%;
+  height: auto;
+}
+
+.titre{
+  float: left;
+  margin: 5% 0 0 14%;
+  font-weight: bold;
+  font-size: 20px;
+  position:  relative;
+ /* border: 1px solid #F9ED32;*/
+  width: 435px;
+  height: 200px;
+}
+
+/* --------- fin param Info Photo ---------- */
+
+
+/* --------- Debut param Formation ---------- */
+
 .section{
   margin-bottom: 65px;
   text-align: justify;
+  margin-top: 60px;
+
+}
+.sectionExp{
+  margin-top: 210px;
+  margin-bottom: 100px;
+  text-align: justify;
+  height: auto;
+
 }
 .sec-gauche{
   float: left;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 40px;
+  text-align: center;
+  margin-right: 3%;
+  margin-left: 260px;
+  width: 30%;
+  border: 5px solid #F9ED32;
+  border-radius: 10px;
+  padding: 20px;
+
 }
+/* ----------Param Tableau formation  ----------- */
+.forma-table,td{
+font-size: 45px;
+border-spacing: 127px 32px;
+}
+.forma-table{
+  margin: 0 10px 0 0;
+}
+/* -------- fin param tableau ------------- */
+/* --------- fin param Formation ---------- */
+
+
+/* -------- param Droite ---------- */
 .sec-droite{
   margin-left: 250px;
   margin-top: 40px;
+   font-size: 45px;
+ /* text-align: right;*/
 }
-.sec-droite-competence {
-  margin-left: 450px;
-  margin-top: 50px;
-  font-weight: bold;
-  font-size: 18px;
+.sec-droite p{
+  font-size: 50px;
 }
-h2{
-  font-size: 28px;
-  color: #E6F3FF;
-  border-bottom: 3px solid #F9ED32;
-}
-.duree{
-  font-weight: normal;
-  font-style: italic;
-  font-size: 16px;
-}
-.titre{
-  font-weight: bold;
-  font-size: 20px;
-}
-#forma-gauche p{
-  margin-bottom: 9px;
-}
-#savoir-gauche p{
-  margin-bottom: 8px;
-}
-#savoir-doite p{
-  margin-bottom: 50px;
-}
-#exp-gauche p{
-  margin-bottom: 60px;  
-}
-h3{
-  font-size: 28px;
-  color: #E6F3FF;
-}
-.section-compétences{
+
+
+/*------- Param Section Compétence ------------*/
+.section-competences{
+  height: 1000px;
   margin-bottom: 65px;
   text-align: justify;
 }
+
+.sec-droite-competence {
+  margin-top: 143px;
+  font-weight: bold;
+  font-size: 45px;
+  float: left;
+ /* margin: 60px 560px 0 0; */
+}
+
+/* création d'une barre sans utilisation du boostrap */
+#mabarre{
+  height: 20px;
+  width: 100%;
+  background-color: #E6F3FF;
+  border-radius: 10px;
+  color: #7C838A;
+
+}
+ 
+/* création de l'information de la progression sans utilisation du boostrap 
+la valeur sera mis dans le html de la div style="width: XXX%" - xxx valeur comprise entre 0 et 100*/   
+#maprogbarre{
+  height: 20px;
+  width: 100%;
+  background-color:  #F9ED32;
+  text-align: center;
+}
+
+/*------- Fin Param Section Compétence ------------*/
+
+/*------- Param Section Expérience ------------*/
+/* Param Titre de l'expérience */
+.titre1{
+  text-align: left;
+  font-weight: bold;
+  font-size: 50px;
+  text-decoration-line: underline;
+}
+/* Fin param Titre de l'expérience */
+
+/* Param tableau expérience */
+.exp-table{
+  margin: 0 10px 0 30px;
+}
+.exp-table,td{
+  font-size: 45px;
+  border-spacing: 127px 32px;
+}
+/* Fin param tableau expérience */
+/*------- Fin Param Section Expérience ------------*/
+
+/*----------- Param selon la taille d'écran ------------*/
+@media only screen and (max-width: 800px){
+
+ #maprogbarre{
+  height: 20px;
+  width: 100%;
+  background-color:  red;
+  text-align: center;
+}
+}
+
+/*@media only screen and (max-width: 1900px){
+img{
+  width: auto;
+  height: 50%;
+  border-radius: 30%;
+  max-height: 265px;
+}
+
+.section-competences{
+  height: 2000px;
+  margin-bottom: 65px;
+  text-align: justify;
+  border: 5px solid red;
+}
+}*/

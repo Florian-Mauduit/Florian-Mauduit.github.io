@@ -1,102 +1,182 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="css/cv__Chantal.css">
-	<title>cv Chantal</title>
-                <!-- Police d'écriture Bangers  -->
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet"> 
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-                    <!-- police d'écriture Permanent Marker -->
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
-                    <!-- Police d'écriture Itim  -->
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="css/cv__Chantal.css">
+      <!--<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+      <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">-->
+
+  <title>CV Chantal</title>
 </head>
+
+<!-- permet de supprimer le soulignement d'un lien hypertexte et forcer la couleur du texte -->
+<style type="text/css">
+a:link{
+  text-decoration: none;
+  color: #F9ED32;
+}
+</style>
+<!-- Fin du style -->
+
 <body>
     <a href="Accueil.html"><button class="retour-accueil">Retour</button></a>
-	  <div class = "page">
-    <div class = "infophoto">
-      <div class = "info">
-        <h3>CHANTAL BOËZENNEC</h3>
-        <p>3 rue du bois<br/>
-          28120 Montigny-Le-Chartif
-        </p>
-        <p>06.87.58.15.90<br/>
-          boezennec.chantal@free.fr
-        </p>
-        <p>permis B et véhicule
-        </p>
-      </div>
-      <div class = "photo">
-        <img src ="img/photo-chantal.jpg">
-      </div>
-    </div>
-    <div class = "section">
+    <div class = "page">
+
+<!-- ***********  Debut section Infophoto ************* -->
+          <div class = "infophoto">
+              <div class = "info">
+                  <h3>CHANTAL BOËZENNEC</h3>                  
+                  <p><center>&#9993;<br>3 rue du bois<br>
+                   28120 Montigny-Le-Chartif<br><br>
+                   &#9990; 06.87.58.15.90<br>
+                   &#128231;<a href="boezennec.chantal@free.fr"> boezennec.chantal@free.fr</a><br><br>
+                   &#128664;permis B et véhicule
+                  </center></p>
+             
+              </div>
+      
+              <div class="titre">
+                <h4>Développeuse Web</h4>
+              </div>
+
+              <div class = "photo">
+                <img src ="img/photo-chantal.jpg">
+                <p style="font-size:2em;"> Vous pouvez télécharger le cv &#9758; <a href="img/image-cv-chantal.png" target="_blank">Télécharger</a>
+                <br> </p>
+            </div>
+          </div>
+ <!-- ***********  fin section Infophoto ************* -->
+ <!-- ***********  Début section Formation ************* -->
+          <div class = "section" id="forma">
       <h2>FORMATIONS</h2>
-      <div class ="sec-gauche" id = "forma-gauche">
-        <p>18/05/2021 - 01/09/2021</p>
-        <p>25/11/2019 - 22/09/2020</p>
-        <p>02/2019 - 05/2019</p>
-        <p>10/2018 - 12/2018</p>
-        <p>2000-2002</p>
-        <p>1997 - 2000</p>
+      <center><table class ="forma-table">
+        <tbody>
+          <tr><!--première ligne-->
+            <td>18/05/2021 - 01/09/2021</td><!--première colonne-->
+            <td>Prépa aux Métiers de l'Informatique et du Numérique</td><!--deuxième colonne-->
+          </tr>
+          <tr>
+            <td>25/11/2019 - 22/09/2020</td>
+            <td>Titre Assistante de Dirigeant d'Entreprise Artisanale</td>
+          </tr>
+          <tr>
+            <td>02/2019 - 05/2019</td>
+            <td>Comptabilité et Gestion de la Paie</td>
+          </tr>
+          <tr>
+            <td>10/2018 - 12/2018</td>
+            <td>Elaboration d'un Projet Professionnel</td>
+          </tr>
+          <tr>
+            <td>2000-2002</td>
+            <td>BP Coiffure option Styliste Visagiste</td>
+          </tr>
+          <tr>
+            <td>1997 - 2001</td>
+            <td>CAP Coiffure</td>
+          </tr>
+        </tbody>
+      </table>
+    </center>
+    </div> 
+     <!-- ***********  Fin section Formation ************* -->
+    <!-- ***********  Début section Compétence ************* -->
+    <div class = "section-competences">
+            <h2>SAVOIR-FAIRE ET SAVOIR-ÊTRE</h2>
+              <div style= "padding: 0 135px;width: 50%;" class ="sec-gauche" id = "savoir-gauche">
+                          <!-- Création de la barre par css perso -->
+              Pack Office<div id="mabarre" style="margin-bottom: 20px;">
+                  <div id="maprogbarre" style="width: 80%"></div>
+              </div>
+
+              Codage : HTML/CSS<div id="mabarre" style="margin-bottom: 20px;">
+                  <div id="maprogbarre" style="width: 50%"></div>
+              </div>
+
+               Logiciel : Gimp, Blender<div id="mabarre" style="margin-bottom: 20px;">
+                  <div id="maprogbarre" style="width: 50%"></div>
+              </div>
+
+              classer et archiver des documents<div id="mabarre" style="margin-bottom: 20px;">
+                  <div id="maprogbarre" style="width: 90%"></div>
+              </div>
+
+              saisir des documents numériques<div id="mabarre" style="margin-bottom: 20px;">
+                  <div id="maprogbarre" style="width: 90%"></div>
+              </div>
+
+              gestion des couriers<div id="mabarre" style="margin-bottom: 20px;">
+                  <div id="maprogbarre" style="width: 90%"></div>
+              </div>
+
+              accueillir du public<div id="mabarre" style="margin-bottom: 20px;">
+                  <div id="maprogbarre" style="width: 90%"></div>
+              </div>
+
+              prendre des rendez-vous<div id="mabarre" style="margin-bottom: 20px;">
+                  <div id="maprogbarre" style="width: 90%"></div>
+              </div>
+      </div> 
+      <div style= "padding: 0 135px;"class ="sec-droite-competence" id = "savoir-droite">
+        <li>Autonome</li>
+        <li>Méticuleuse</li>
+        <li>Organisée</li>
+        <li>Curieuse</li>
+        <li>Discrète</li>
+        <li>Calme</li>
+        <li>Créative</li>
       </div>
-      <div class ="sec-droite">
-        <p><span class ="titre">Prépa aux Métiers de l'Informatique et du Numérique</span><br/></p>
-         <p><span class ="titre">Titre Assistante de Dirigeant d'Entreprise Artisanale</span><br/></p> 
-        <p><span class="titre">Comptabilité et Gestion de la Paie</span><br/></p>
-          <p><span class ="titre">Elaboration d'un Projet Professionnel</span><br/>
-          <p><span class ="titre">BP Coiffure option Styliste Visagiste</span><br/>
-         <p><span class ="titre">CAP Coiffure</span><br/>
-      </div>
-    </div>
-    <div class = "section-compétences">
-      <h2>SAVOIR-FAIRE ET SAVOIR-ÊTRE</h2>
-      <div class ="sec-gauche" id = "savoir-gauche">
-        <p>Pack Office<br>
-        Codage : HTML/CSS<br>
-        Logiciel : Gimp, Blender, Inkscape<br>
-        classer et archiver des documents<br>
-        saisir des documents numériques<br>
-        gestion des couriers<br>
-        accueillir du public<br>
-        prendre des rendez-vous<br>
-      </p>
-      </div>
-      <div class ="sec-droite-competence" id = "savoir-droite">
-        <p>Autonome<br>
-        Méticuleuse<br>
-        Organisée<br>
-        Curieuse<br>
-        Discrète<br>
-        Calme<br>
-        Créative</p>
-      </div>
-    </div>
-    <div class = "section">
+    </div>  
+<!-- *************** Fin Compétence ********************  --> 
+<!-- ***********  Début section Expérience ************* -->
+    <div class = "sectionExp" id="exp">
       <h2>EXPERIENCES PROFESSIONNELLES</h2>
-      <div class ="sec-gauche" id = "exp-gauche">
-        <p>19/11/2018-07/12/2018<br>
-        22/10/2018-02/11/2018</p>
-        <p><br>02/2016-07/2018</p>
-       <p>07/2014-02/2016<br></p>
-        <p>04/2012-12/2012<br></p>
-        <p>08-2002-09/2011
-        </p>
-      </div>
-      <div class ="sec-droite" >
-                <p><span class ="titre">Stagiaire Assistante Administrative, EHPAD Nogent-Le-Rotrou et Illiers Combray</span><br/>
-          classement et mise à jour de dossiers, préparation et envoie de courrier, déclaration URSSAF, mise à jour de casier judiciaire, aide à la mise à jour de planning. </p>
-                <p><span class ="titre">Opératrice, Cabaplast</span><br/>Production de sac plastiques avec controle toutes les deux heures, mise en carton de la production et mise sur palette, surveillance et approvisionnement des matières premières.</p>
-                <p><span class ="titre">Agent de fabrication, Adecco</span><br/>Production de sacs plastiques, travail sur chaine de production de parfum, emballage et mise en carton de présentoires et panneaux publicitaires.</p>
-               <p><span class ="titre">Agent d'escale, SNCF</span><br/>Renseigner et orienter les usagers dans la gare, verifier les billets sur les quais.</p>
-               <p><span class ="titre">Coiffeuse, Yvelines et Eure et Loir</span><br/>Accueil et conseil de client, prise de rendez-vous, réalisation des différentes techniques de coiffures, vente de produits, encaissement des prestations.</p>
-      </div>
-    </div>
+      <center><table class = "exp-table">
+        <tbody>
+          <tr>
+            <td><span class ="titre1">Stagiaire Assistante Administrative, EHPAD Nogent-Le-Rotrou et Illiers Combray</span></td>
+            <td width="50px">19/11/2018-07/12/2018<br>
+             22/10/2018-02/11/2018</td>
+          </tr>
+          <tr>
+            <td width="80%">Classement et mise à jour de dossiers, préparation et envoie de courrier, déclaration URSSAF, mise à jour de casier judiciaire, aide à la mise à jour de planning.</td>  
+          </tr>
+          <tr>
+            <td><span class ="titre1">Opératrice, Cabaplast</span></td>
+            <td>02/2016-07/2018</td>
+          </tr>
+          <tr>
+            <td>Production de sac plastiques avec controle toutes les deux heures, mise en carton de la production et mise sur palette, surveillance et approvisionnement des matières premières.</td>
+          </tr>
+           <tr>
+            <td><span class ="titre1">Agent de fabrication, Adecco</span></td>
+             <td>07/2014-02/2016</td>
+          </tr>
+          <tr>
+            <td>Production de sacs plastiques, travail sur chaine de production de parfum, emballage et mise en carton de présentoires et panneaux publicitaires.</td>
+          </tr>
+           <tr>
+            <td><span class ="titre1">Agent d'escale, SNCF</span></td>
+            <td>04/2012-12/2012</td>
+          </tr>
+          <tr>
+            <td>Renseigner et orienter les usagers dans la gare, verifier les billets sur les quais.</td>
+          </tr>
+           <tr>
+            <td><span class ="titre1">Coiffeuse, Yvelines et Eure et Loir</span></td>
+            <td>08-2002-09/2011</td>
+          </tr>
+          <tr>
+            <td>Accueil et conseil de client, prise de rendez-vous, réalisation des différentes techniques de coiffures, vente de produits, encaissement des prestations.</td>
+          </tr>
+        </tbody>
+      </table>
+      </center>
   </div>
+    <!-- ***********  Fin section Expérience ************* -->
+
+  </div>
+  <!-- ***********  Fin Page ************* -->
 </body>
 </html>
