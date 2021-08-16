@@ -20,6 +20,7 @@ font-family: 'Montserrat', sans-serif;
     display: flex;
     flex-wrap: wrap;
     margin-bottom: -32%;
+    margin-top: 80px;
 }
 
 .container .box {
@@ -90,7 +91,7 @@ font-family: 'Montserrat', sans-serif;
     margin-bottom: 5px;
     font-size: 22px;
     transform: translateY(200px);
-    font-family: Permanent Marker;
+    font-family: Bangers;
 }
 .container .box:hover .content h2 {
     transform: translateY(0);
@@ -102,7 +103,7 @@ font-family: 'Montserrat', sans-serif;
     transform: translateY(200px);
     transition: 0.5s;
     font-size: 14px;
-    font-family: Permanent Marker;
+    font-family: Bangers;
 }
 
 .container .box:hover .content p {
@@ -110,3 +111,10 @@ font-family: 'Montserrat', sans-serif;
     transition-delay: 0.7s;
 }
 
+/*--- Partie responsive ---*/
+
+@media screen and (max-width: 600px) {
+    .container {
+        display: block;
+    }
+}
