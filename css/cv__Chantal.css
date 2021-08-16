@@ -68,7 +68,8 @@ img{
   width: auto;
   height: 80%;
   border-radius: 30%;
-  max-height: 530px;
+  max-height: 265px;
+  margin-left: 70px;
 }
 
 .responsive{
@@ -78,7 +79,7 @@ img{
 
 .titre{
   float: left;
-  margin: 5% 0 0 14%;
+  margin: 5% 0 0 12%;
   font-weight: bold;
   font-size: 20px;
   position:  relative;
@@ -111,7 +112,7 @@ img{
   font-size: 40px;
   text-align: center;
   margin-right: 3%;
-  margin-left: 260px;
+  margin-left: 140px;
   width: 30%;
   border: 5px solid #F9ED32;
   border-radius: 10px;
@@ -150,7 +151,7 @@ border-spacing: 127px 32px;
 }
 
 .sec-droite-competence {
-  margin-top: 143px;
+  margin-top: 60px;
   font-weight: bold;
   font-size: 45px;
   float: left;
