@@ -10,7 +10,7 @@
 
 .cv-text {
 	text-align: center;
-	background-color: #C3B2AF;
+	background-color: #682DEB;
 	border-radius: 2em;
 	padding: 5px;
 	margin: 15px;
@@ -28,11 +28,13 @@
 	height: 35px;
 	height: 5%;
 	border-radius: 2em;
-	background-color: darkgray;
+	background-color: #682DEB;
 	font-size: 18px;
 	font-family: Bangers;
 	margin-left: 3px;
 	cursor: pointer;
+	border: none;
+	color: #fff;
 }
 
 .nom_Chantal {
@@ -40,13 +42,14 @@
 	text-align: center;
 	font-family: Bangers;
 	font-size: 25px;
-	text-decoration: underline;
+	color: #fff;
 }
 
 .text_chantal {
 	text-align: center;
 	font-family: Bangers;
 	font-size: 20px;
+	color: #fff;
 }
 
 .cv__Chantal {
@@ -70,7 +73,7 @@
 	width: 80%;
 	height: 100%;
 	color: #fff;
-	background-color: #C3B2AF;
+	background-color: #682DEB;
 	padding: 1em;
 	box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
 	border-radius: 2em;
@@ -80,7 +83,7 @@
 	float: right;
 	font-size: 30pt;
 	cursor: pointer;
-	color: #7C838A;
+	color: #fff;
 }
 .popup-titre-chantal {
 	text-align: center;
@@ -106,11 +109,13 @@
 	height: 35px;
 	height: 5%;
 	border-radius: 2em;
-	background-color: darkgray;
+	background-color: #682DEB;
 	font-size: 18px;
 	font-family: Bangers;
 	margin-left: 3px;
 	cursor: pointer;
+	border: none;
+	color: #fff;
 }
 
 .nom_Florian {
@@ -118,13 +123,14 @@
 	text-align: center;
 	font-family: Bangers;
 	font-size: 25px;
-	text-decoration: underline;
+	color: #fff;
 }
 
 .text_florian {
 	text-align: center;
 	font-family: Bangers;
 	font-size: 20px;
+	color: #fff;
 }
 
 .cv__Florian {
@@ -149,7 +155,7 @@
 	width: 80%;
 	height: 100%;
 	color: #fff;
-	background-color: #C3B2AF;
+	background-color: #682DEB;
 	padding: 1em;
 	box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
 	border-radius: 2em;
@@ -159,7 +165,7 @@
 	float: right;
 	font-size: 30pt;
 	cursor: pointer;
-	color: #7C838A;
+	color: #fff;
 }
 .popup-titre-florian {
 	text-align: center;
@@ -186,11 +192,13 @@
 	height: 35px;
 	height: 5%;
 	border-radius: 2em;
-	background-color: darkgray;
+	background-color: #682DEB;
 	font-size: 18px;
 	font-family: Bangers;
 	margin-left: 3px;
 	cursor: pointer;
+	border: none;
+	color: #fff;
 }
 
 .nom_Noah {
@@ -198,13 +206,14 @@
 	text-align: center;
 	font-family: Bangers;
 	font-size: 25px;
-	text-decoration: underline;
+	color: #fff;
 }
 
 .text_noah {
 	text-align: center;
 	font-family: Bangers;
 	font-size: 20px;
+	color: #fff;
 }
 
 .cv__Noah {
@@ -230,7 +239,7 @@
 	width: 80%;
 	height: 100%;
 	color: #fff;
-	background-color: #C3B2AF;
+	background-color: #682DEB;
 	padding: 1em;
 	box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
 	border-radius: 2em;
@@ -240,7 +249,7 @@
 	float: right;
 	font-size: 30pt;
 	cursor: pointer;
-	color: #7C838A;
+	color: #fff;
 }
 .popup-titre-noah {
 	text-align: center;
@@ -266,11 +275,13 @@
 	height: 35px;
 	height: 5%;
 	border-radius: 2em;
-	background-color: darkgray;
+	background-color: #682DEB;
 	font-size: 18px;
 	font-family: Bangers;
 	margin-left: 3px;
 	cursor: pointer;
+	border: none;
+	color: #fff;
 }
 
 .nom_Adam {
@@ -278,13 +289,14 @@
 	text-align: center;
 	font-family: Bangers;
 	font-size: 25px;
-	text-decoration: underline;
+	color: #fff;
 }
 
 .text_adam {
 	text-align: center;
 	font-family: Bangers;
 	font-size: 20px;
+	color: #fff;
 }
 
 .cv__Adam {
@@ -310,7 +322,7 @@
 	width: 80%;
 	height: 100%;
 	color: #fff;
-	background-color: #C3B2AF;
+	background-color: #682DEB;
 	padding: 1em;
 	box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
 	border-radius: 2em;
@@ -320,7 +332,7 @@
 	float: right;
 	font-size: 30pt;
 	cursor: pointer;
-	color: #7C838A;
+	color: #fff;
 }
 .popup-titre-adam {
 	text-align: center;
@@ -343,7 +355,7 @@
 	width: 300px;
 	height: 350px;
 	border-radius: 2em;
-	background-color: #C3B2AF;
+	background-color: #682DEB;
 	transition: all 0.5s ease-out;
 }
 
@@ -353,7 +365,7 @@
 	width: 300px;
 	height: 350px;
 	border-radius: 2em;
-	background-color: #C3B2AF;
+	background-color: #682DEB;
 	transition: all 0.5s ease-out;
 }
 
@@ -363,7 +375,7 @@
 	width: 300px;
 	height: 350px;
 	border-radius: 2em;
-	background-color: #C3B2AF;
+	background-color: #682DEB;
 	transition: all 0.5s ease-out;
 }
 
@@ -373,7 +385,7 @@
 	width: 300px;
 	height: 350px;
 	border-radius: 2em;
-	background-color: #C3B2AF;
+	background-color: #682DEB;
 	transition: all 0.5s ease-out;
 }
 

@@ -10,8 +10,8 @@
 
 .separer {
 	height: 3px;
-	color: #C3B2AF;
-	background-color: #C3B2AF;
+	color: #FFF;
+	background-color: #FFF;
 	width: 167px;
 	margin-left: 44%;
 	margin-top: 10px;
@@ -44,7 +44,7 @@
 	position: absolute;
 	margin-left: 25%;
 	margin-top: 2%;
-	background-color: #C3B2AF;
+	background-color: #682DEB;
 	border-radius: 16% 84% 57% 43% / 38% 46% 54% 62% ;
 	padding: 2%;
 	width: 50%;
@@ -53,28 +53,33 @@
 .name {
 	margin-left: 200px;
 	font-family: Bangers;
+	color: #FFF34A;
 }
 
 .username {
 	margin-left: 200px;
 	font-family: Bangers;
+	color: #FFF34A;
 }
 
 .email {
 	margin-left: 200px;
 	font-family: Bangers;
+	color: #FFF34A;
 }
 
 .message {
 	margin-left: 100px;
 	font-family: Bangers;
+	color: #FFF34A;
 }
 
 .input {
+	color: #FFF34A;
 	margin: 10px;
     margin-left: 200px;
 	color: #FFF;
-	background-color: #7C838A;
+	background-color: #31009E;
 	border-radius: 10px;
 	height: 27px;
 	width: 300px;
@@ -86,7 +91,7 @@
 	height: 200px;
 	margin-left: 100px;
 	margin-top: 2%;
-	background-color: #7C838A;
+	background-color: #31009E;
 	color: white;
 }
 
@@ -94,6 +99,7 @@
 	font-family: Bangers;
 	margin-left: 210px;
 	font-size: 17px;
+	color: #FFF34A;
 }
 
 .submit {
@@ -104,10 +110,10 @@
 	margin-top: 10px;
 	width: 150px;
 	height: 30px;
-	color: #080707;
-	background-color: #F9ED32;
+	color: #FFF;
+	background-color: #31009E;
 	border-radius: 24% 77% 69% 31% / 42% 54% 46% 58%;
-	box-shadow: 4px 10px 15px #7C838A;
+	border: none;
 }
 
 .cancel {
@@ -117,10 +123,10 @@
 	margin-top: 10px;
 	width: 150px;
 	height: 30px;
-	color: #080707;
-	background-color: #F9ED32;
+	color: #FFF;
+	background-color: #31009E;
 	border-radius: 81% 19% 22% 78% / 50% 54% 46% 50%;
-	box-shadow: 4px 10px 15px #7C838A;
+	border: none;
 }
 
 /*--- Partie responsive ---*/

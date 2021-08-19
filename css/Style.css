@@ -37,12 +37,13 @@
 /* Partie menu */
 
 body {
-	background-color:  #7C838A;
+	background-color:  #31009E;
 }
 
 ol {
+	margin-top: 30px;
 	text-align: center;
-	background-color: #7C838A;
+	background-color: rgba(104,45,235,0.30);
 }
 
 li {
@@ -54,7 +55,7 @@ li {
 #realisation {
 	font-family: Permanent Marker;
 	width: 150px;
-	color: #F9ED32;
+	color: #fff;
 	border-radius: 15px;
 	margin: 10px;
 	padding: 20px;
@@ -66,7 +67,7 @@ li {
  #competence {
  	font-family: Permanent Marker;
  	width: 150px;
- 	color: #F9ED32;
+ 	color: #fff;
  	border-radius: 15px;
  	margin: 10px;
  	padding: 20px;
@@ -77,7 +78,7 @@ li {
  #contact {
  	font-family: Permanent Marker;
  	width: 150px;
- 	color: #F9ED32;
+ 	color: #fff;
  	border-radius: 15px;
  	margin: 10px;
  	padding: 20px;
@@ -89,7 +90,7 @@ li {
  #CV {
  	font-family: Permanent Marker;
  	width: 210px;
- 	color: #F9ED32;
+ 	color: #fff;
  	border-radius: 15px;
  	margin: 10px;
  	padding: 20px;
@@ -104,7 +105,7 @@ li {
 	color: #F9ED32;
 	border: 2px solid;
 	transform: scale(1.20);
-	box-shadow: 0px 1px 10px 2px black;
+	box-shadow: 0px 1px 10px 2px #7846E8;
 }
 
 #competence:hover,
@@ -112,7 +113,7 @@ li {
 	color: #F9ED32;
 	border: 2px solid;
 	transform: scale(1.20);
-	box-shadow: 0px 1px 10px 2px black;
+	box-shadow: 0px 1px 10px 2px #7846E8;
 }
 
 #contact:hover,
@@ -120,7 +121,7 @@ li {
 	color: #F9ED32;
 	border: 2px solid;
 	transform: scale(1.20);
-	box-shadow: 0px 1px 10px 2px black;
+	box-shadow: 0px 1px 10px 2px #7846E8;
 }
 
 #CV:hover,
@@ -128,7 +129,7 @@ li {
 	color: #F9ED32;
 	border: 2px solid;
 	transform: scale(1.20);
-	box-shadow: 0px 1px 10px 2px black;
+	box-shadow: 0px 1px 10px 2px #7846E8;
 }
  
 
@@ -142,13 +143,15 @@ h1 {
 	font-family: Bangers;
 	text-align: center;
 	margin: 5px;
+	color: #fff;
 }
 
 #intro {
 	font-family: Bangers;
 	text-align: center;
 	margin: 5px;
-	font-size: 20px;
+	font-size: 25px;
+	color: #F9ED32;
 } 
 
 .intro-paragraphes {
@@ -156,14 +159,16 @@ h1 {
 	line-height: 25px;
 	text-align: center;
 	font-size: 18px;
-	border: 2px solid #E6F3FF;
+	border: 2px solid #682DEB;
 	padding: 10px;
 	margin: 60px;
+	color: #FFF34A;
 }
 
 .intro-paragraphes:hover {
-	background: rgb(195,178,175);
-	background: linear-gradient(0deg, rgba(195,178,175,1) 0%, rgba(230,243,255,1) 100%);
+	background: rgb(255,243,74);
+	background: linear-gradient(80deg, rgba(255,243,74,1) 0%, rgba(104,45,235,1) 80%);
+	border: none;
 }
 
 li {
@@ -171,14 +176,10 @@ li {
 	padding: 5px;  
 }
 
-header {
-	background-color: orange;
-}
-
 .credits {
 	font-family: Itim;
 	padding: 15px;
-	background-color: #B0BAC3;
+	background-color: #682DEB;
 	color: #F9ED32;
 	text-align: center;
 	font-size: 20px;

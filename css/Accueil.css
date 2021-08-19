@@ -1,5 +1,5 @@
 .body {
-	background-color: #7C838A;
+	background-color: #31009E;
 	position: absolute;
 	z-index: 1;
 	width: 100%;
@@ -179,31 +179,31 @@
 .image_Chantal:hover,
 .image_Chantal:focus {
 	color: #F9ED32;
-	background-color: #C3B2AF;
+	background-color: #682DEB;
 }
 
 .image_Florian:hover,
 .image_Florian:focus {
 	color: #F9ED32;
-	background-color: #C3B2AF;
+	background-color: #682DEB;
 }
 
 .image_Noah:hover,
 .image_Noah:focus {
 	color: #F9ED32;
-	background-color: #C3B2AF;
+	background-color: #682DEB;
 }
 
 .image_Adam:hover,
 .image_Adam:focus {
 	color: #F9ED32;
-	background-color: #C3B2AF;
+	background-color: #682DEB;
 }
 
 .image_Chantal {
 	width: 200px;
 	height: 250px;
-	background-color: #B0BAC3;
+	background-color: #31009E;
 	border-radius: 50% 50% 49% 51% / 47% 48% 52% 53%;
 	margin-bottom: 40px;
 	transition: all 0.5s ease-out;
@@ -212,7 +212,7 @@
 .image_Florian {
 	width: 200px;
 	height: 250px;
-	background-color: #B0BAC3;
+	background-color: #31009E;
 	border-radius: 50% 50% 49% 51% / 47% 48% 52% 53%;
 	transition: all 0.5s ease-out;
 }
@@ -220,7 +220,7 @@
 .image_Noah {
 	width: 200px;
 	height: 250px;
-	background-color: #B0BAC3;
+	background-color: #31009E;
 	border-radius: 50% 50% 49% 51% / 47% 48% 52% 53%;
 	transition: all 0.5s ease-out;
 }
@@ -228,7 +228,7 @@
 .image_Adam {
 	width: 200px;
 	height: 250px;
-	background-color: #B0BAC3;
+	background-color: #31009E;
 	border-radius: 50% 50% 49% 51% / 47% 48% 52% 53%;
 	margin-bottom: 40px;
 	transition: all 0.5s ease-out;
