@@ -52,6 +52,17 @@ li {
 	cursor: pointer;
 }
 
+#accueil {
+	font-family: Permanent Marker;
+	width: 150px;
+	color: #fff;
+	border-radius: 15px;
+	margin: 10px;
+	padding: 20px;
+	font-size: 20px;
+	transition: all 0.5s ease-out;
+}
+
 #realisation {
 	font-family: Permanent Marker;
 	width: 150px;
@@ -100,6 +111,14 @@ li {
 
  /* Animations CSS menu de navigation */
 
+ #accueil:hover,
+ #accueil:focus {
+ 	color: #F9ED32;
+ 	border: 2px solid;
+ 	transform: scale(1.20);
+ 	box-shadow: 0px 1px 10px 2px #7846E8;
+ }
+
 #realisation:hover,
 #realisation:focus {
 	color: #F9ED32;
@@ -131,7 +150,7 @@ li {
 	transform: scale(1.20);
 	box-shadow: 0px 1px 10px 2px #7846E8;
 }
- 
+
 
 * {
 	margin: 0;
@@ -152,7 +171,7 @@ h1 {
 	margin: 5px;
 	font-size: 25px;
 	color: #F9ED32;
-} 
+}
 
 .intro-paragraphes {
 	font-family: Bangers;
@@ -173,7 +192,7 @@ h1 {
 
 li {
 	list-style: none;
-	padding: 5px;  
+	padding: 5px;
 }
 
 .credits {
@@ -219,7 +238,7 @@ li {
 		float: left;
 		margin-top: -190px;
 	}
-	
+
 	.credits {
 		margin-top: 610px;
 	}
