@@ -70,16 +70,16 @@
 .eyes-florian {
 	display: flex;
     position: fixed;
-    top: 357px;
+    top: 353px;
     transform: translateY(-50%);
     width: 100%;
     text-align: center;
-    left: 431px;
+    left: 445px;
 }
 
 .eye-florian {
-	width: 60px;
-	height: 50px;
+	width: 50px;
+	height: 40px;
 	background: #fff;
 	display: inline-block;
 	margin: 23px;

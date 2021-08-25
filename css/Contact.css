@@ -114,6 +114,7 @@
 	background-color: #31009E;
 	border-radius: 24% 77% 69% 31% / 42% 54% 46% 58%;
 	border: none;
+	cursor: pointer;
 }
 
 .cancel {
@@ -127,6 +128,7 @@
 	background-color: #31009E;
 	border-radius: 81% 19% 22% 78% / 50% 54% 46% 50%;
 	border: none;
+	cursor: pointer;
 }
 
 /*--- Partie responsive ---*/
