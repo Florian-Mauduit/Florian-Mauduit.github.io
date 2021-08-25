@@ -3,6 +3,7 @@
 	position: absolute;
 	z-index: 1;
 	width: 100%;
+	webkit-moz-
 }
 
 /* Paralaxe */
@@ -14,8 +15,8 @@
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
-	  position: relative;
-	  z-index: 1;
+	position: relative;
+	z-index: 1;
 }
 
 
@@ -232,6 +233,16 @@
 	border-radius: 50% 50% 49% 51% / 47% 48% 52% 53%;
 	margin-bottom: 40px;
 	transition: all 0.5s ease-out;
+}
+
+/* Partie jeux */
+
+iframe {
+	frameborder="0" scrolling="no" allowfullscreen
+	allowtransparency: true;
+	frameborder: 0;
+	scroling: none;
+	allowfullscreen
 }
 
 /*Partie écran de la borne arcade  */

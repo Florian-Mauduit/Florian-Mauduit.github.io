@@ -1,14 +1,13 @@
-<!-- Partie Florian --- Le jeu est crée par Adam -->
 <!DOCTYPE html>
-<html>
+<html lang="fr">
     <head>
     	<title>Piou-Piou.com-Accueil</title>
+      <meta charset="utf-8">
       <link rel="shortcut icon" type="image/x-icon" href="img/Oeuf-socle.png" />
     	<link rel="stylesheet" type="text/css" href="css/Accueil.css">
     	<link rel="stylesheet" type="text/css" href="css/style.css">
       <link rel="stylesheet" type="text/css" href="css/Contact.css">
       <link rel="stylesheet" type="text/css" href="css/menu.css">
-      <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
       <link rel="preconnect" href="https://fonts.googleapis.com">
                     <!-- Police d'écriture Bangers  -->
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,11 +20,9 @@
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
-        <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
-        <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"> -->
-    	<meta charset="utf-8">
     </head>
     <body>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
                                 <!-- Parallaxe  -->
       <div class="parallax-effect">
         <!-- Eyes Noah -->
@@ -72,23 +69,23 @@
                                 <!-- Partie menu de navigation -->
         <div class="body">
           <div id="cross-fading">
-            <a href="Accueil.html"><img src="img/Oeuf-piou.png" id="Oeuf" class="Oeuf-bas"></a>
-            <a href="Accueil.html"><img src="img/Oeuf-piou-sol.png" class="Oeuf-top"></a>
+            <a href="Accueil.html"><img src="img/Oeuf-piou.png" alt="Oeuf" id="Oeuf" class="Oeuf-bas"></a>
+            <a href="Accueil.html"><img src="img/Oeuf-piou-sol.png" alt="Oeuf" class="Oeuf-top"></a>
           </div>
             <h1 class="titre_Accueil">Accueil</h1>
             <p id="intro">| Une Agence Créative Original |</p>
         	<header>
         		<ol class="menu">
-              <a href="Accueil.html"><li id="accueil">Accueil</li></a>
-        			<a href="Realisation.html"><li id="realisation">Réalisation</li></a>
-        			<a href="Contact.html"><li id="contact">Contact</li></a>
-        			<a href="CV.html"><li id="CV">Nos différents CV</li></a>
+              <li id="accueil"><a href="Accueil.html">Accueil</a></li>
+        			<li id="realisation"><a href="Realisation.html">Réalisation</a></li>
+        			<li id="contact"><a href="Contact.html">Contact</a></li>
+        			<li id="CV"><a href="CV.html">Nos différents CV</a></li>
         		</ol>
         	</header>
                             <!-- Présentation du site -->
           <p class="intro-paragraphes">Piou-Piou.com est une Agence Créative dans le milieu du développement web.<br>
             Nous pouvons créer tout type de site internet, que cela soit : site e-commerce, site vitrine ou un site pour une association.</p>
-                                    <!-- Partie jeux -- incrustée -->
+                                    <!-- Partie jeux incrustée -->
         	<section class="borne">
         		<div class="ecran">
               <div  class="img_AN">
@@ -96,9 +93,9 @@
                 <a href="cv__Noah.html"><img src="img/Noah.png" alt="img-logo-Noah" class="image_Noah"></a>
               </div>
               <div class="jeu">
-                <img class="gameboy" src="img/GameBoy.png">
-        			   <iframe id="snake" class="snake"  src="https://scratch.mit.edu/projects/561880890/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
-                 <iframe id="mario" class="mario" src="https://scratch.mit.edu/projects/562115516/embed" allowtransparency="true" frameborder="0" scrolling="no" allowfullscreen></iframe>
+                <img class="gameboy" alt="gameboy" src="img/GameBoy.png">
+        			   <iframe id="snake" class="snake" src="https://scratch.mit.edu/projects/561880890/embed"></iframe>
+                 <iframe id="mario" class="mario" src="https://scratch.mit.edu/projects/562115516/embed"></iframe>
                  <button id="jaune" class="jaune"></button>
                  <div id="overlay" class="overlay">
                     <div id="popup" class="popup">
@@ -132,11 +129,11 @@
         	</section>
                                          <!-- Séparateur -->
             <div class="separation">
-                <p class="contactez-nous">Contactez-nous</p>
+                <h6 class="contactez-nous">Contactez-nous</h6>
                 <hr class="separer">
             </div>
                                         <!-- Partie Formulaire  -->
-                <section class="form">
+                <div class="form">
                       <label class="name">Name :</label>
                       <div class="control">
                         <input class="input" type="text" placeholder="Noms">
@@ -190,11 +187,12 @@
                             <button class="cancel">Cancel</button>
                         </div>
                     </div>
-            </section>
+            </div>
           <script src="js/script.js"></script>
           <script src="js/script-popup.js"></script>
       	<footer>
-      		<p class="credits">Ce site a été créé par Florian, Chantal, Noah et Adam <a class="up" href="#Oeuf"><p>&#9757;</p></a></p>
+          <a class="up" href="#Oeuf"><p class="up_p">&#9757;</p></a>
+      		<p class="credits">Ce site a été créé par Florian, Chantal, Noah et Adam</p>
       	</footer>
       </div>
     </body>
