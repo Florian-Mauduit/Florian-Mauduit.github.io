@@ -155,7 +155,7 @@ border-spacing: 127px 32px;
   font-weight: bold;
   font-size: 45px;
   float: left;
- /* margin: 60px 560px 0 0; */
+ display: contents;
 }
 
 /* création d'une barre sans utilisation du boostrap */
