@@ -12,11 +12,11 @@
       background-image: url("../img/piou-looking-rogner.png");
       min-height: 672px; 
       background-attachment: fixed;
-      background-position: center;
+      /* background-position: center; */
       background-repeat: no-repeat;
-      background-size: cover;
-	position: relative;
-	z-index: 1;
+      background-size: contain;
+	  position: relative;
+	  z-index: 1;
 }
 
 
@@ -33,12 +33,13 @@
 /* eyes tracking */
 /* eyes Noah */
 .eyes-noah {
+	display: flex;
 	position: fixed;
-    top: 420px;
+    top: 364px;
     transform: translateY(-50%);
     width: 100%;
     text-align: center;
-    left: -693px;
+    left: 75px;
 }
 
 .eye-noah {
@@ -67,12 +68,13 @@
 /* Eyes florian */
 
 .eyes-florian {
-	position: fixed;
-	top: 412px;
-	transform: translateY(-50%);
-	width: 100%;
-	text-align: center;
-	left: -252px;
+	display: flex;
+    position: fixed;
+    top: 357px;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+    left: 431px;
 }
 
 .eye-florian {
@@ -101,12 +103,13 @@
 /* Eyes chantal */
 
 .eyes-chantal {
-	position: fixed;
-	top: 400px;
-	transform: translateY(-50%);
-	width: 100%;
-	text-align: center;
-	left: 225px;
+	display: flex;
+    position: fixed;
+    top: 357px;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+    left: 872px;
 }
 
 .eye-chantal {
@@ -135,12 +138,13 @@
 /* eyes adam */
 
 .eyes-adam {
-	position: fixed;
-	top: 405px;
-	transform: translateY(-50%);
-	width: 100%;
-	text-align: center;
-	left: 694px;
+	display: flex;
+    position: fixed;
+    top: 357px;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+    left: 1272px;
 }
 
 .eye-adam {
