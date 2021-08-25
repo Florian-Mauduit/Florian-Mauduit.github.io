@@ -257,6 +257,7 @@ iframe {
 
 .gameboy {
 	width: 940px;
+	display: flex;
 }
 
 .main {
@@ -264,12 +265,12 @@ iframe {
 }
 
 iframe {
-	width: 727px;
-	height: 501px;
-	margin-left: -806px;
-	margin-right: auto;
-	position: absolute;
-	margin-top: 165px;
+	width: 725px;
+    	height: 500px;
+    	margin-left: 135px;
+    	margin-right: auto;
+    	position: absolute;
+    	margin-top: -1312px;
 }
 
 .mario {
