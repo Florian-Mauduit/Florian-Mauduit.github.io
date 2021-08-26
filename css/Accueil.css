@@ -17,6 +17,11 @@
 	  position: relative;
 	  z-index: 1;
 }
+@media (max-width:800px) {
+	.parallax-effect {
+		min-height: 287px;
+	}	
+}
 
 
 /*.parallax-effect-img {
@@ -40,6 +45,17 @@
     text-align: center;
     left: 75px;
 }
+@media (max-width:800px){
+	.eyes-noah {
+		display: flex;
+		position: fixed;
+		top: 180px;
+		transform: translateY(-50%);
+		width: 100%;
+		text-align: center;
+		left: 27px;
+	}
+}
 
 .eye-noah {
 	width: 60px;
@@ -50,6 +66,12 @@
 	border-radius: 50%;
 	position: relative;
 	overflow: hidden;
+}
+@media (max-width:800px) {
+	.eye-noah {
+		width: 28px;
+		height: 18px;
+	}
 }
 
 .ball-noah {
@@ -63,6 +85,12 @@
 	border-radius: 50%;
 	border: 5px solid #754A3C;
 }
+@media (max-width:800px) {
+	.ball-noah {
+		width: 5px;
+    	height: 5px;
+	}
+}
 
 /* Eyes florian */
 
@@ -75,6 +103,12 @@
     text-align: center;
     left: 445px;
 }
+@media (max-width:800px){
+	.eyes-florian {
+		top:174px;
+		left: 215px;
+	}	
+}
 
 .eye-florian {
 	width: 50px;
@@ -86,6 +120,14 @@
 	position: relative;
 	overflow: hidden;
 	}
+@media (max-width:800px) {
+	.eye-florian {
+		width: 30px;
+		height: 20px;
+		margin: 11px;
+	}
+	
+}
 
 .ball-florian {
 	width: 15px;
@@ -98,7 +140,12 @@
 	border-radius: 50%;
 	border: 5px solid #4EFA43;
 }
-
+@media (max-width:800px) {
+	.ball-florian {
+		width: 5px;
+		height: 5px;
+	}	
+}
 /* Eyes chantal */
 
 .eyes-chantal {
@@ -110,6 +157,12 @@
     text-align: center;
     left: 872px;
 }
+@media (max-width:800px) {
+	.eyes-chantal {
+		top: 171px;
+		left: 418px;
+	}
+}
 
 .eye-chantal {
 	width: 45px;
@@ -120,6 +173,15 @@
 	border-radius: 50%;
 	position: relative;
 	overflow: hidden;
+}
+@media (max-width:800px) {
+	.eye-chantal {
+		width: 30px;
+		height: 20px;
+		margin: 11px;
+	}
+
+	
 }
 
 .ball-chantal {
@@ -133,6 +195,12 @@
 	border-radius: 50%;
 	border: 5px solid #4DBBFA;
 }
+@media (max-width:800px) {
+	.ball-chantal {
+		width: 5px;
+		height: 5px;
+	}	
+}
 
 /* eyes adam */
 
@@ -145,6 +213,13 @@
     text-align: center;
     left: 1272px;
 }
+@media (max-width:800px) {
+	.eyes-adam{
+		top: 173px;
+		left: 620px;
+	}
+	
+}
 
 .eye-adam {
 	width: 50px;
@@ -155,6 +230,13 @@
 	border-radius: 50%;
 	position: relative;
 	overflow: hidden;
+}
+@media (max-width:800px) {
+	.eye-adam{
+		width: 30px;
+		height: 30px;
+		margin: 11px;
+	}	
 }
 
 .ball-adam {
@@ -167,6 +249,12 @@
     transform: translate(-50%,-50%);
     border-radius: 50%;
     border: 5px solid #000;
+}
+@media (max-width:800px) {
+	.ball-adam{
+		width: 5px;
+		height: 5px;
+	}	
 }
 
 
@@ -212,6 +300,16 @@
 	margin-bottom: 40px;
 	transition: all 0.5s ease-out;
 }
+@media (max-width:800px) {
+	.image_Chantal {
+		width: 100px;
+		height: 150px;
+		background-color: #31009E;
+		border-radius: 50% 50% 49% 51% / 47% 48% 52% 53%;
+		margin-bottom: 40px;
+		transition: all 0.5s ease-out;
+	}	
+}
 
 .image_Florian {
 	width: 200px;
@@ -219,6 +317,15 @@
 	background-color: #31009E;
 	border-radius: 50% 50% 49% 51% / 47% 48% 52% 53%;
 	transition: all 0.5s ease-out;
+}
+@media (max-width:800px) {
+	.image_Florian {
+		width: 100px;
+		height: 150px;
+		background-color: #31009E;
+		border-radius: 50% 50% 49% 51% / 47% 48% 52% 53%;
+		transition: all 0.5s ease-out;
+	}	
 }
 
 .image_Noah {
@@ -228,6 +335,15 @@
 	border-radius: 50% 50% 49% 51% / 47% 48% 52% 53%;
 	transition: all 0.5s ease-out;
 }
+@media (max-width:800px) {
+	.image_Noah {
+		width: 100px;
+		height: 150px;
+		background-color: #31009E;
+		border-radius: 50% 50% 49% 51% / 47% 48% 52% 53%;
+		transition: all 0.5s ease-out;
+	}		
+}
 
 .image_Adam {
 	width: 200px;
@@ -236,6 +352,16 @@
 	border-radius: 50% 50% 49% 51% / 47% 48% 52% 53%;
 	margin-bottom: 40px;
 	transition: all 0.5s ease-out;
+}
+@media (max-width:800px) {
+	.image_Adam {
+		width: 100px;
+		height: 150px;
+		background-color: #31009E;
+		border-radius: 50% 50% 49% 51% / 47% 48% 52% 53%;
+		margin-bottom: 40px;
+		transition: all 0.5s ease-out;
+	}	
 }
 
 /* Partie jeux */
@@ -262,6 +388,11 @@ iframe {
 	width: 940px;
 	display: flex;
 }
+@media (max-width:800px) {
+	.gameboy{
+		width: 400px;
+	}	
+}
 
 .main {
 	z-index: -1;
@@ -275,6 +406,16 @@ iframe {
     	position: absolute;
     	margin-top: -1312px;
 }
+@media (max-width: 800px){
+	iframe {
+		width: 307px;
+		height: 187px;
+		margin-left: 56px;
+		margin-right: auto;
+		position: absolute;
+		margin-top: -550px;
+	}
+}
 
 .mario {
 	width: 727px;
@@ -283,6 +424,16 @@ iframe {
 	margin-right: auto;
 	position: absolute;
 	margin-top: -1312px;
+}
+@media (max-width:800px) {
+	.mario{
+		width: 307px;
+		height: 187px;
+		margin-left: 56px;
+		margin-right: auto;
+		position: absolute;
+		margin-top: -550px;
+	}	
 }
 
 /* Partie Buttons Play */

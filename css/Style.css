@@ -192,7 +192,7 @@ h1 {
 
 .intro-paragraphes:hover {
 	background: rgb(255,243,74);
-	background: linear-gradient(80deg, rgba(255,243,74,1) 0%, rgba(104,45,235,1) 80%);
+	background: linear-gradient(80deg, rgb(0, 0, 0) 0%, rgba(104,45,235,1) 80%);
 	border: none;
 }
 
